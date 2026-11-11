@@ -1,11 +1,11 @@
 {
-  "version": "0.2.179",
-  "notes": "Left 4 Dead 2 fix for Nihilanth model and glowing outline (packaged missing vjnag_nihilanth submodel required by Source Engine), complete resolution of Burning Man (SCP-457) textures with full loose and VPK material deployment, pre-cached Nihilanth submodels, and updated installer package.",
-  "pub_date": "2026-11-11T17:33:11.957Z",
+  "version": "0.2.180",
+  "notes": "Left 4 Dead 2 fix for troll kill piano callstack crash (arith op on native closure), direct portal spawning of 20 Xenomorph common infected and director mob every 30 seconds, complete eradication of SCP-457 black & purple textures (purged invalid BloodyHands proxy and nonexistent lightwarp in both VPK and loose assets), and updated desktop app.",
+  "pub_date": "2026-11-11T19:07:09.348Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ1NKeFpIWlpPVDU0OVZOZ0F3dUZud3BKRXQvL3J6RnoxeTFVaTBrQW1yeTQvbzg3RWtqYmxnU2JBWGRjMm95c29WamxDY3VuY2kvcW15L2UyQjc3cmdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDE4MzgzCWZpbGU6UnVuZXRpZnlfMC4yLjE3OV94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjE3OQpMMWo4cHpENGNwRW9MbzVTc2czbHM5YTJzYTFJYlNkamdVdmJlaFF4N09FVmNDT3ppUVlOWHNQVk1mVnRpMTFDelhBVGMxcVNqSVU2Rzh6U3FldE9DZz09Cg==",
-      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.179/Runetify_0.2.179_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ1g3ZUttU05TMm91eFFCRFZBdjZPd0EvVUtFUHRmUzNLSHkrclNyOWM4MUlmRy9rdXc0QzNvUWNOMnl4aDU1OWtpdWNVdE9OTWhjWVl0TlFidTQ5N1FjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDIzOTk4CWZpbGU6UnVuZXRpZnlfMC4yLjE4MF94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjE4MApoQ1AzTDV2WWVmWHV4azdJM2xQWUdoN2dsQWtVNG9YZWU5bTVQYTVLMkdVbUdzTFRCV3paY0IydzBLOTQvaFRYRWdUeDZzVGVYU3l1RncwNE5EaGZEQT09Cg==",
+      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.180/Runetify_0.2.180_x64-setup.exe"
     }
   }
 }
