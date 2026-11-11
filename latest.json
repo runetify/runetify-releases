@@ -1,11 +1,11 @@
 {
-  "version": "0.2.171",
-  "notes": "Supermarket Simulator full live gameplay fix across all 56 actions on port 55001 (fixed BepInEx Mono config with HideManagerGameObject=true, PlayerLoop main-thread runner survival across scenes, strict synchronous HTTP 200/503/500 responses removing empty-response false positives, repaired Customer/Shoplifter/NPC/BigHead/NegativeBalance/StorageUpgrade/Chaos/Cars/Jail execution, and updated verified mod packages for all games).",
-  "pub_date": "2026-11-09T04:32:57.868Z",
+  "version": "0.2.174",
+  "notes": "Automatic zero-quota local WebSocket push of all saved overlay configs on app startup (OBS & TikTok Live Studio update immediately without navigating pages), fixed Extenders Timer relay event payload, guaranteed L4D2 Freeze All Survivors portal action & adaptive Firestore backoff, plus v0.2.173 L4D2 2048 edict resolution and vanilla hordes.",
+  "pub_date": "2026-11-11T04:29:43.581Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ2FOTzBvNEJQbjVkWEVFNnFtK1lCMlpkV1U3WTVVSVZUb2FrRkFMWWJ6RlgxM0d0cTNJUE9XSy9Yems0Z3BWYlBwalZ5aGpYQlZmYzUyTXZISkdTZmdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MTk4NzY2CWZpbGU6UnVuZXRpZnlfMC4yLjE3MV94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjE3MQpMblV0Nm9vT2tvQkM5eXhWQXpwNk0yOEJwS0hlRHByUUNucWlHQ1BqQlhmR2J4RnV2MUN5QnlFOGFoSEF3aG5LTG1GdkRtdTVTU3M4VUFRNXoxZHRDQT09Cg==",
-      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.171/Runetify_0.2.171_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ2NaeUo3TXlvUXN5c09KcG5nak9FSW1qQzZYTlFHb0VWeTBOeTJxWFp0c1pYWitBUUdWY2h6YWJtZHJwSWVNQXdkeHlwME5TdFE4TzlNV1Z3TVgwUXc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MzcxMzcxCWZpbGU6UnVuZXRpZnlfMC4yLjE3NF94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjE3NApmVklkM0ZzQzF0REl5RFBGRXFlTTF0VElDNjFSVWE5VGJiVEZ3U1BWT1MzbjlKQyt6L2NIeVBUdzZOdU1hK2pTTXFLOFJLQWpqbXp5OFNETTF0bkFEdz09Cg==",
+      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.174/Runetify_0.2.174_x64-setup.exe"
     }
   }
 }
