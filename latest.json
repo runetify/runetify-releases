@@ -1,11 +1,11 @@
 {
-  "version": "0.2.178",
-  "notes": "Left 4 Dead 2 fix for vomit_all (replaced left4dhooks crash with native VScript HitWithVomit), eliminated purple/black missing textures on Burning Man (SCP-457), Human Tree, and Riot Infected, restored Nihilanth to high-altitude sky boss (+700 units) with non-solid player collision preventing stuck situations, removed broken halo particle spam, and restored reliable cheat-free Xenomorph common infected portal spawning.",
-  "pub_date": "2026-11-11T16:32:38.785Z",
+  "version": "0.2.179",
+  "notes": "Left 4 Dead 2 fix for Nihilanth model and glowing outline (packaged missing vjnag_nihilanth submodel required by Source Engine), complete resolution of Burning Man (SCP-457) textures with full loose and VPK material deployment, pre-cached Nihilanth submodels, and updated installer package.",
+  "pub_date": "2026-11-11T17:33:11.957Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ1ZtS3FMeFJKQVdsOWlzd1c1TnhkMmMvNlZlVCtiYUlmNFNzc3FMbG8wT2xZbkxBaDhON1pYaFRxb0M0OUtMMWJjcjJ0cmwvZUpYb0FCUWNBZVhEV0FRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDE0NzUzCWZpbGU6UnVuZXRpZnlfMC4yLjE3OF94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjE3OApySHZOQ2xQZ2Z4UHQxOEIrOEJsK0FSTEZjTE50Qk1SVEM5L1g0WHgwWlBFalRWK1pJL1dQU0ptQjZrTEoyNXlVWnNVQndjTDRzQ2NGWlBrZDYxdHZCZz09Cg==",
-      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.178/Runetify_0.2.178_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ1NKeFpIWlpPVDU0OVZOZ0F3dUZud3BKRXQvL3J6RnoxeTFVaTBrQW1yeTQvbzg3RWtqYmxnU2JBWGRjMm95c29WamxDY3VuY2kvcW15L2UyQjc3cmdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDE4MzgzCWZpbGU6UnVuZXRpZnlfMC4yLjE3OV94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjE3OQpMMWo4cHpENGNwRW9MbzVTc2czbHM5YTJzYTFJYlNkamdVdmJlaFF4N09FVmNDT3ppUVlOWHNQVk1mVnRpMTFDelhBVGMxcVNqSVU2Rzh6U3FldE9DZz09Cg==",
+      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.179/Runetify_0.2.179_x64-setup.exe"
     }
   }
 }
