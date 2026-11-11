@@ -1,11 +1,11 @@
 {
-  "version": "0.2.174",
-  "notes": "Automatic zero-quota local WebSocket push of all saved overlay configs on app startup (OBS & TikTok Live Studio update immediately without navigating pages), fixed Extenders Timer relay event payload, guaranteed L4D2 Freeze All Survivors portal action & adaptive Firestore backoff, plus v0.2.173 L4D2 2048 edict resolution and vanilla hordes.",
-  "pub_date": "2026-11-11T04:29:43.581Z",
+  "version": "0.2.175",
+  "notes": "Ultra-low Firestore quota optimization: 60s MQTT-gated background safety polling (cuts empty trigger checks by ~95% with <50ms instant delivery), zero-drop concurrent MQTT wakeup queuing, plus v0.2.174 automatic startup overlay push, Extenders timer fix, and L4D2 Freeze action.",
+  "pub_date": "2026-11-11T04:44:22.242Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ2NaeUo3TXlvUXN5c09KcG5nak9FSW1qQzZYTlFHb0VWeTBOeTJxWFp0c1pYWitBUUdWY2h6YWJtZHJwSWVNQXdkeHlwME5TdFE4TzlNV1Z3TVgwUXc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MzcxMzcxCWZpbGU6UnVuZXRpZnlfMC4yLjE3NF94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjE3NApmVklkM0ZzQzF0REl5RFBGRXFlTTF0VElDNjFSVWE5VGJiVEZ3U1BWT1MzbjlKQyt6L2NIeVBUdzZOdU1hK2pTTXFLOFJLQWpqbXp5OFNETTF0bkFEdz09Cg==",
-      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.174/Runetify_0.2.174_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ1lTc3lIUkx4dFdCTUNuemJ0YzFSeW9ySTVBcUppVFNFckIvUW9Rb1p6aW9RMTBGQS9wb215Yk1FQ0pwSlNpTUFwM242N1I1TGVsa3NKeEw4TVNDZmdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MzcyMjQ1CWZpbGU6UnVuZXRpZnlfMC4yLjE3NV94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjE3NQo3VWY0akE4TGRPVHIwQnVTczdtOXQ3YzJpSVhFQTNxNkFUdlUwMzVPdzdNSTAxMWJwM2JPK2g0Qms3M1JBY3VKaWFCdXFvU3dLVWU1MlN1KzVTd2lDQT09Cg==",
+      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.175/Runetify_0.2.175_x64-setup.exe"
     }
   }
 }
