@@ -1,11 +1,11 @@
 {
-  "version": "0.2.180",
-  "notes": "Left 4 Dead 2 fix for troll kill piano callstack crash (arith op on native closure), direct portal spawning of 20 Xenomorph common infected and director mob every 30 seconds, complete eradication of SCP-457 black & purple textures (purged invalid BloodyHands proxy and nonexistent lightwarp in both VPK and loose assets), and updated desktop app.",
-  "pub_date": "2026-11-11T19:07:09.348Z",
+  "version": "0.2.181",
+  "notes": "Left 4 Dead 2 dynamic car throwing on random 360-degree trajectories with bus horn, 10 damage and moderate knockback; Meatwall Tank 5-rock spread throw (1 vanilla + 4 scattered); reliable 20 Xenomorph minion spawns via Director ForcePanicEvent and navmesh positioning; 100% verified material and model integrity across all 64 models with full loose and VPK synchronization; and updated desktop app.",
+  "pub_date": "2026-11-11T21:14:33.173Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ1g3ZUttU05TMm91eFFCRFZBdjZPd0EvVUtFUHRmUzNLSHkrclNyOWM4MUlmRy9rdXc0QzNvUWNOMnl4aDU1OWtpdWNVdE9OTWhjWVl0TlFidTQ5N1FjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDIzOTk4CWZpbGU6UnVuZXRpZnlfMC4yLjE4MF94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjE4MApoQ1AzTDV2WWVmWHV4azdJM2xQWUdoN2dsQWtVNG9YZWU5bTVQYTVLMkdVbUdzTFRCV3paY0IydzBLOTQvaFRYRWdUeDZzVGVYU3l1RncwNE5EaGZEQT09Cg==",
-      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.180/Runetify_0.2.180_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ2MvOExKd294M1dzZEVJNWR4dFFwNE42WThUL3puY0ZqRHJ4eVJpaVR5UDM3VXE4ZXRNaElITWV2RWd3S0t3ZTJOcWsyYWJEak1sVkp3NlVyWTV0aXdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDMxNjU0CWZpbGU6UnVuZXRpZnlfMC4yLjE4MV94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjE4MQo2QXdLS1JQcXNRMjJUR1BlRUpORzZnYTU5YkF5OW0xTi9PZER1M2FabXBLdGRxWDNhR0wvek11QnBrY1FuQWU3T3ZBUkQ1elRycktjbWw4OGNVWUFCdz09Cg==",
+      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.181/Runetify_0.2.181_x64-setup.exe"
     }
   }
 }
