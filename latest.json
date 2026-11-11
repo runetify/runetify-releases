@@ -1,11 +1,11 @@
 {
-  "version": "0.2.175",
-  "notes": "Ultra-low Firestore quota optimization: 60s MQTT-gated background safety polling (cuts empty trigger checks by ~95% with <50ms instant delivery), zero-drop concurrent MQTT wakeup queuing, plus v0.2.174 automatic startup overlay push, Extenders timer fix, and L4D2 Freeze action.",
-  "pub_date": "2026-11-11T04:44:22.242Z",
+  "version": "0.2.176",
+  "notes": "Left 4 Dead 2 complete custom command icon set (all 32 missing WebP icons for Bosses, Specials, Melee/Guns, Items, and Actions), vomit_all Boomer Bile action, 100% vanilla director hordes, Nihilanth portal tuning (20 Xenomorphs every 30s, custom/special infected every 3m), rebuilt 370MB runetify.vpk payload, and verified workshop mod compatibility.",
+  "pub_date": "2026-11-11T15:06:39.327Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ1lTc3lIUkx4dFdCTUNuemJ0YzFSeW9ySTVBcUppVFNFckIvUW9Rb1p6aW9RMTBGQS9wb215Yk1FQ0pwSlNpTUFwM242N1I1TGVsa3NKeEw4TVNDZmdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MzcyMjQ1CWZpbGU6UnVuZXRpZnlfMC4yLjE3NV94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjE3NQo3VWY0akE4TGRPVHIwQnVTczdtOXQ3YzJpSVhFQTNxNkFUdlUwMzVPdzdNSTAxMWJwM2JPK2g0Qms3M1JBY3VKaWFCdXFvU3dLVWU1MlN1KzVTd2lDQT09Cg==",
-      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.175/Runetify_0.2.175_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ1NKMHVoWVNORGh5bzhpZGwwUkRycytLeUoxak1FUmNUN240SnpFTE95YWhSVXhScEtvVnpuLzV4clg0cDN0R21DUDdZL05FUEx5SDRiY0pKNUNibXdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDA5NTg3CWZpbGU6UnVuZXRpZnlfMC4yLjE3Nl94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjE3NgpVcytuZ3B2T1lNK3IraXhVWXluU0ZXWXl5aUd5L2JKTGhaclVuT3FMdHNHaWZUWm1NSGpHNnZoYlJGeW1MYnRXMkpZczRHVHh3REVGTkRQV21WSzFCZz09Cg==",
+      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.176/Runetify_0.2.176_x64-setup.exe"
     }
   }
 }
