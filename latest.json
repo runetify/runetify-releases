@@ -1,11 +1,11 @@
 {
-  "version": "0.2.177",
-  "notes": "Left 4 Dead 2 all-survivor weapons/supplies distribution, 10,000 revive slot cap, Nihilanth boss model & green outline glow fix, exact 30s Xenomorph / 3m Custom Infected portal spawn timers, wipe cleanup of boss entities/fire/outlines, Steam Workshop Error 8 fix (512x512 square addonimage.jpg), and complete 411MB runetify.vpk package.",
-  "pub_date": "2026-11-11T15:54:29.696Z",
+  "version": "0.2.178",
+  "notes": "Left 4 Dead 2 fix for vomit_all (replaced left4dhooks crash with native VScript HitWithVomit), eliminated purple/black missing textures on Burning Man (SCP-457), Human Tree, and Riot Infected, restored Nihilanth to high-altitude sky boss (+700 units) with non-solid player collision preventing stuck situations, removed broken halo particle spam, and restored reliable cheat-free Xenomorph common infected portal spawning.",
+  "pub_date": "2026-11-11T16:32:38.785Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ2ZOSDlxNjhMcXhhcTgxaWkrZFRvd2Jud3VNR1lrdFV6WUk4a3BKMW9ZZ3IvNXIzL21FSUV3VmdmdnNSdUEyOGVyRU1QQmZwM3F5cUpoRmpvekppbFE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDEyMjQyCWZpbGU6UnVuZXRpZnlfMC4yLjE3N194NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjE3NwpqM0VPUTdETnRsMzRXT0JNNDlrVk0vb1Z3eFpJK0NCRGpuUXJJZkhKN0djTUxhZHYxbFZkb3FIdlZkanoxYzJSYWNsMUl6U05tYmNmeGl5ZGc1SllCdz09Cg==",
-      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.177/Runetify_0.2.177_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ1ZtS3FMeFJKQVdsOWlzd1c1TnhkMmMvNlZlVCtiYUlmNFNzc3FMbG8wT2xZbkxBaDhON1pYaFRxb0M0OUtMMWJjcjJ0cmwvZUpYb0FCUWNBZVhEV0FRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDE0NzUzCWZpbGU6UnVuZXRpZnlfMC4yLjE3OF94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjE3OApySHZOQ2xQZ2Z4UHQxOEIrOEJsK0FSTEZjTE50Qk1SVEM5L1g0WHgwWlBFalRWK1pJL1dQU0ptQjZrTEoyNXlVWnNVQndjTDRzQ2NGWlBrZDYxdHZCZz09Cg==",
+      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.178/Runetify_0.2.178_x64-setup.exe"
     }
   }
 }
