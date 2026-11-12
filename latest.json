@@ -1,11 +1,11 @@
 {
-  "version": "0.2.181",
-  "notes": "Left 4 Dead 2 dynamic car throwing on random 360-degree trajectories with bus horn, 10 damage and moderate knockback; Meatwall Tank 5-rock spread throw (1 vanilla + 4 scattered); reliable 20 Xenomorph minion spawns via Director ForcePanicEvent and navmesh positioning; 100% verified material and model integrity across all 64 models with full loose and VPK synchronization; and updated desktop app.",
-  "pub_date": "2026-11-11T21:14:33.173Z",
+  "version": "0.2.182",
+  "notes": "Left 4 Dead 2 horizontal car throwing fix eliminating physics incaps (ground-level 360 trajectory with 10 damage & knockback); Meatwall Tank 5-rock volley with authentic default rock color; Fireman (SCP-457) black translucent cloak model; Boomer Bile All chat-only announcement (removed hint box) with 1-second interval pacing; Nihilanth high altitude sky positioning with 4s dramatic intro delay; and Xenomorph minion immunity to boss airstrikes and meteors.",
+  "pub_date": "2026-11-12T03:43:32.078Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ2MvOExKd294M1dzZEVJNWR4dFFwNE42WThUL3puY0ZqRHJ4eVJpaVR5UDM3VXE4ZXRNaElITWV2RWd3S0t3ZTJOcWsyYWJEak1sVkp3NlVyWTV0aXdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDMxNjU0CWZpbGU6UnVuZXRpZnlfMC4yLjE4MV94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjE4MQo2QXdLS1JQcXNRMjJUR1BlRUpORzZnYTU5YkF5OW0xTi9PZER1M2FabXBLdGRxWDNhR0wvek11QnBrY1FuQWU3T3ZBUkQ1elRycktjbWw4OGNVWUFCdz09Cg==",
-      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.181/Runetify_0.2.181_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ1Fma3djRVlralNpaERBOHR3UjhMTkY3K0Rlc1VwN2dNZGJaOW9qKytpMUhvc25xSGg3VWI2eUE0NnZIQ0d3anFSVjM3OVFWVE1XdlQxMU5YYVpzc0FZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDU1MDA2CWZpbGU6UnVuZXRpZnlfMC4yLjE4Ml94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjE4MgpyVWNkT2RFN3IranNKYlA0LzNyVndkdXNEZnVsUTVMaXIzWU1rd2xGeFl3KzhhZFRFVWdocThYaEJrbm1nOGFvd0tuNzBaWUFRNDg1UXNXNVppM1BDZz09Cg==",
+      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.182/Runetify_0.2.182_x64-setup.exe"
     }
   }
 }
