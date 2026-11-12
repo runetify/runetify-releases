@@ -1,11 +1,11 @@
 {
-  "version": "0.2.186",
-  "notes": "Left 4 Dead 2 revive system overhaul for all client players and resilient TikTok connection: unified team revive pool synchronized to all connected survivors on join and on gift deposit; enabled native button revive triggering via Spacebar (Jump), E (Use), and Left Mouse (Attack) in OnPlayerRunCmd when downed or dead, bypassing client keybind restrictions and admin menu conflicts; added chat command revive triggering (revive, !revive, /revive, h, space); updated on-screen hints to 'PRESS [SPACE] OR [H] TO REVIVE'; eliminated TikTok connection drops with 30s handshake timeout, 10s ping intervals, direct room-id reconnection with exponential backoff avoiding HTML scraping and IP rate limits.",
-  "pub_date": "2026-11-12T07:32:03.354Z",
+  "version": "0.2.187",
+  "notes": "Left 4 Dead 2 & Overlay stability release: strict per-client revive isolation (H or Space only without brackets, row 2 lives remaining, zero chat triggers), automated Workshop compatibility ConVar safeguards (l4d2_addons_eclipse 1, sv_allow_lobby_connect_only 0, sv_consistency/sv_pure 0 hooks), runetify.vpk trimmed under 500 MB (476 MB) for Steam Workshop upload compatibility, clickable interactive disrupts with accurate repeat counts and Tetris/marquee stability, burst-safe queuing Roulette Spinner, blink-free Leaderboard/Top Gift/Top Streak overlays, and synced L4D2 command icons across web overlays.",
+  "pub_date": "2026-11-12T09:21:11.377Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ1cxcXFFS1E1eGlhWlVTbEMzSWhmcW0rZjYwb2ttbkwrODBrK29mbHgrYXpHYUovUFUyeVBnNkIzRnZ5OWZ0bGRMazdwbUxBWWd1dmp0bWFuRmdnVnc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDY4NzEzCWZpbGU6UnVuZXRpZnlfMC4yLjE4Nl94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjE4NgpzejE0YjY2UFJFZlFZRG5QVHlQTkY5MUNLYTdQNEN6YmZhK2lpQnJPV0lvYUhoYmpJVWtMWmUyL3FhSTRheXZDbnhLQlFiMU5kRWwzKzFlYXROVWtBZz09Cg==",
-      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.186/Runetify_0.2.186_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ2RTQTNTMDRiT04wV0l0bG5VZllFck9hUkZkTXBxUHpJS3V0SjVxR0t3d0U3S25OaUIxQWFxeVN1aW9XUWxVdjhtM1ErVGlFbGFqN25YTXNHL0pPaHdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDc1MjcwCWZpbGU6UnVuZXRpZnlfMC4yLjE4N194NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjE4NwplTEVnWVZQZkVFNjE5ZDB4TUpxVGRGMFUvZGF5WHRLT3FtMmFDeStDS3BXcmhtcWxhSXVPZVEvcVk5a0s3Qkx0TnV5R1hlWnQ2VDg2dFF4cFlSczBDdz09Cg==",
+      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.187/Runetify_0.2.187_x64-setup.exe"
     }
   }
 }
