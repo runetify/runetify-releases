@@ -1,11 +1,11 @@
 {
-  "version": "0.2.185",
-  "notes": "Left 4 Dead 2 Super Tanks and Overlord restoration: fixed sp_EasyLogic syntax error restoring all VScript abilities, colors, timers, and chat announcements; fixed Death Tank damage from instant-kill overkill to balanced 125% punch damage with decaying temp health; hardened Admin Tank and Spawner Tank minion abilities with null safety checks; adjusted outline glow rules so Overlord retains elemental colored glow while standard Super Tanks use authentic clean non-wallhack outlines; rebuilt runetify.vpk and updated desktop app.",
-  "pub_date": "2026-11-12T06:12:53.920Z",
+  "version": "0.2.186",
+  "notes": "Left 4 Dead 2 revive system overhaul for all client players and resilient TikTok connection: unified team revive pool synchronized to all connected survivors on join and on gift deposit; enabled native button revive triggering via Spacebar (Jump), E (Use), and Left Mouse (Attack) in OnPlayerRunCmd when downed or dead, bypassing client keybind restrictions and admin menu conflicts; added chat command revive triggering (revive, !revive, /revive, h, space); updated on-screen hints to 'PRESS [SPACE] OR [H] TO REVIVE'; eliminated TikTok connection drops with 30s handshake timeout, 10s ping intervals, direct room-id reconnection with exponential backoff avoiding HTML scraping and IP rate limits.",
+  "pub_date": "2026-11-12T07:32:03.354Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ2ZrWFhXeUVyUEFLTEZtdUwzcCszNk83VXUrc21qUlcrZWtDWEkzay9RUWpNTDFtQ3p6R0NCZVBBTmxNN3ZtVmJKelVrclZzWjFjblhGUmdnR0VSbndZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDYzOTY1CWZpbGU6UnVuZXRpZnlfMC4yLjE4NV94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjE4NQpORmhOa0FrQXNDUHRTYU5HODFLQVU5eFdWVEhSMHordm5mNVFOTGEzZHF0MCtpdjVpRXliWCtvcjhWTXI3OWtaTzJHYnFvdU1kMGYrY2dzYlRabHpBUT09Cg==",
-      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.185/Runetify_0.2.185_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ1cxcXFFS1E1eGlhWlVTbEMzSWhmcW0rZjYwb2ttbkwrODBrK29mbHgrYXpHYUovUFUyeVBnNkIzRnZ5OWZ0bGRMazdwbUxBWWd1dmp0bWFuRmdnVnc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDY4NzEzCWZpbGU6UnVuZXRpZnlfMC4yLjE4Nl94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjE4NgpzejE0YjY2UFJFZlFZRG5QVHlQTkY5MUNLYTdQNEN6YmZhK2lpQnJPV0lvYUhoYmpJVWtMWmUyL3FhSTRheXZDbnhLQlFiMU5kRWwzKzFlYXROVWtBZz09Cg==",
+      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.186/Runetify_0.2.186_x64-setup.exe"
     }
   }
 }
