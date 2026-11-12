@@ -1,11 +1,11 @@
 {
-  "version": "0.2.184",
-  "notes": "Left 4 Dead 2 Meatwall Tank model restoration: switched exclusively to SrLobito's authentic larger custom Meatwall Tank model (meat_wall_tank.mdl) with 1.15x scale and restored native meatwall_color materials; purged Hellbound meatwall assets; preserved 5-rock spread ability; rebuilt runetify.vpk and updated desktop app.",
-  "pub_date": "2026-11-12T05:25:20.703Z",
+  "version": "0.2.185",
+  "notes": "Left 4 Dead 2 Super Tanks and Overlord restoration: fixed sp_EasyLogic syntax error restoring all VScript abilities, colors, timers, and chat announcements; fixed Death Tank damage from instant-kill overkill to balanced 125% punch damage with decaying temp health; hardened Admin Tank and Spawner Tank minion abilities with null safety checks; adjusted outline glow rules so Overlord retains elemental colored glow while standard Super Tanks use authentic clean non-wallhack outlines; rebuilt runetify.vpk and updated desktop app.",
+  "pub_date": "2026-11-12T06:12:53.920Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ2NpTStrYXBBaXIwRWErc3hVWjhCcG1KcGswSXBSc2V1akdHMzF0MzZMZ0NQcVNYZWV4NzBSMjNzeG9FY3Zic3pudjkvU3RZanViM0V5R1pNV01abVEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDYxMDk5CWZpbGU6UnVuZXRpZnlfMC4yLjE4NF94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjE4NApZZXZXY2VPU2xNWFdydWNPeDMrZmZDNm1lS0dFclF4amNMeTdKajRudzF2a21QUU14M0tMUjREeE45UkEvWmNVQjNsTXVsV29pVUJQSEFEamV4TlZCZz09Cg==",
-      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.184/Runetify_0.2.184_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ2ZrWFhXeUVyUEFLTEZtdUwzcCszNk83VXUrc21qUlcrZWtDWEkzay9RUWpNTDFtQ3p6R0NCZVBBTmxNN3ZtVmJKelVrclZzWjFjblhGUmdnR0VSbndZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDYzOTY1CWZpbGU6UnVuZXRpZnlfMC4yLjE4NV94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjE4NQpORmhOa0FrQXNDUHRTYU5HODFLQVU5eFdWVEhSMHordm5mNVFOTGEzZHF0MCtpdjVpRXliWCtvcjhWTXI3OWtaTzJHYnFvdU1kMGYrY2dzYlRabHpBUT09Cg==",
+      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.185/Runetify_0.2.185_x64-setup.exe"
     }
   }
 }
