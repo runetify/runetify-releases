@@ -1,11 +1,11 @@
 {
-  "version": "0.2.187",
-  "notes": "Left 4 Dead 2 & Overlay stability release: strict per-client revive isolation (H or Space only without brackets, row 2 lives remaining, zero chat triggers), automated Workshop compatibility ConVar safeguards (l4d2_addons_eclipse 1, sv_allow_lobby_connect_only 0, sv_consistency/sv_pure 0 hooks), runetify.vpk trimmed under 500 MB (476 MB) for Steam Workshop upload compatibility, clickable interactive disrupts with accurate repeat counts and Tetris/marquee stability, burst-safe queuing Roulette Spinner, blink-free Leaderboard/Top Gift/Top Streak overlays, and synced L4D2 command icons across web overlays.",
-  "pub_date": "2026-11-12T09:21:11.377Z",
+  "version": "0.2.188",
+  "notes": "Fix Disrupt overlay window click-through on startup and idle states: initialize disrupt-overlay hidden until configured, centralize cursor passthrough in apply_cursor_passthrough, enforce ignore-cursor-events=true whenever an existing or recreated disrupt window has no active interactive minigame, reset passthrough on dismiss/load, and sync L4D2 command icons & overlay stability fixes.",
+  "pub_date": "2026-11-12T09:38:52.031Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ2RTQTNTMDRiT04wV0l0bG5VZllFck9hUkZkTXBxUHpJS3V0SjVxR0t3d0U3S25OaUIxQWFxeVN1aW9XUWxVdjhtM1ErVGlFbGFqN25YTXNHL0pPaHdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDc1MjcwCWZpbGU6UnVuZXRpZnlfMC4yLjE4N194NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjE4NwplTEVnWVZQZkVFNjE5ZDB4TUpxVGRGMFUvZGF5WHRLT3FtMmFDeStDS3BXcmhtcWxhSXVPZVEvcVk5a0s3Qkx0TnV5R1hlWnQ2VDg2dFF4cFlSczBDdz09Cg==",
-      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.187/Runetify_0.2.187_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ1Y5N240aW5vZVV2c2VLeTBTVDkyVUJQOG5kcjJObVpOQk12T1NSRXhOVVZMWVNhQ0Q3RnkxT3dqS0VIekorVkdaTG14ZHllSmxxdFpicDBPKzl5UlFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDc2MzMxCWZpbGU6UnVuZXRpZnlfMC4yLjE4OF94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjE4OApjcnhvR2cxelcwcXN4TmU5MnhFQVIxRTBIK0hmeE5nREl0ZmdhMjNYVnB0OXpwNnBvbndlSGdVdk1pWTdIOHI0Y0MzblB2YThyd29JeUEwM1pkZTRDZz09Cg==",
+      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.188/Runetify_0.2.188_x64-setup.exe"
     }
   }
 }
