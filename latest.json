@@ -1,11 +1,11 @@
 {
-  "version": "0.2.188",
-  "notes": "Fix Disrupt overlay window click-through on startup and idle states: initialize disrupt-overlay hidden until configured, centralize cursor passthrough in apply_cursor_passthrough, enforce ignore-cursor-events=true whenever an existing or recreated disrupt window has no active interactive minigame, reset passthrough on dismiss/load, and sync L4D2 command icons & overlay stability fixes.",
-  "pub_date": "2026-11-12T09:38:52.031Z",
+  "version": "0.2.190",
+  "notes": "Left 4 Dead 2 instant revive on spectated teammate (eliminated defib screen flash and shock audio, zero getup animation delay), eradicated l4d2_nextmap auto-change timer, restored Overlord bosses and Super Tank ability reliability, and enhanced Spotify setup with native disk persistence, auto-saving Client ID on paste/input, and suppressed startup dialog prompts.",
+  "pub_date": "2026-11-14T01:19:26.109Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ1Y5N240aW5vZVV2c2VLeTBTVDkyVUJQOG5kcjJObVpOQk12T1NSRXhOVVZMWVNhQ0Q3RnkxT3dqS0VIekorVkdaTG14ZHllSmxxdFpicDBPKzl5UlFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDc2MzMxCWZpbGU6UnVuZXRpZnlfMC4yLjE4OF94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjE4OApjcnhvR2cxelcwcXN4TmU5MnhFQVIxRTBIK0hmeE5nREl0ZmdhMjNYVnB0OXpwNnBvbndlSGdVdk1pWTdIOHI0Y0MzblB2YThyd29JeUEwM1pkZTRDZz09Cg==",
-      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.188/Runetify_0.2.188_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ2FPRzdFLzl3Zy9SbTVad1pBVU5hdnFYN0ZGVmc4dzcwdEVTeU9uWnJrL3RQa29TdWZ5OEZWK0NrVFVYV25GSjlFQkErcHhXNVZLbnIxdXJLUVVmcFFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NjE4MzU5CWZpbGU6UnVuZXRpZnlfMC4yLjE5MF94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjE5MApvVm9XSmhFUXpYYXhmTzhpSXhqUC9XelhCZ1JYS2JnTS92MXM3eWlDTlEvNzdCbGQ1K2xTTjB4U3VEUDczWGtLYS9teWlZRjVHbUtoYUlKVHRNbWxEZz09Cg==",
+      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.190/Runetify_0.2.190_x64-setup.exe"
     }
   }
 }
