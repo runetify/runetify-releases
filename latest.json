@@ -1,11 +1,11 @@
 {
-  "version": "0.2.196",
-  "notes": "Runetify 0.2.196 — Streamed command selection without page controls, refreshed game and tools spinner, and updated L4D2 and PvZ Fusion mod fixes.",
-  "pub_date": "2026-11-14T09:11:12.650Z",
+  "version": "0.2.197",
+  "notes": "Only Climb: Better Together fix: resolved Unreal Engine 5 shader map crash (MaterialShared.cpp:727) by ensuring synchronous Game Thread mod initialization in BPModLoaderMod; purged all legacy third-party branding to 100% pure Runetify (RunetifyCharacters, RunetifyMod); activated all 42 commands including Mod Pack actors (watermelons, sword rain, etc.) via PlayerController input injection; and fixed 'existing install receipt is invalid' handling.",
+  "pub_date": "2026-11-14T09:26:53.919Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ1FoT3NKc1hhbE02MDZuL0lHSGNXRVFUQXNKVnVGZHRKNkFzWis0SFJUSGFPajNJRjJvWHl0OWgrOGRQVDE1OG9sS3E5TUw4b2lXNHJrL2k3Y3RJN1EwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NjQ3NDY2CWZpbGU6UnVuZXRpZnlfMC4yLjE5Nl94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjE5NgpZVjRiLzhLUVM0RXQ2VUxldFJvSDdoSWRlaTNNMXR3dTBZU3FpVTdOSmpGc0l3VHkyQW0vRU1XVTU3QTdhL1dLb1F6UldWR1ZxQVZHNVFTWldjd0REQT09Cg==",
-      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.196/Runetify_0.2.196_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ2JCaENYOEhGL3lzdFFoM3VKY2lNT0hxN3NlRmprZ3l2Kzg2c2R2YnA5LzhIWCtLN2NaRWw2NGlHdE1KNGh6Y3hPYVN6Q0ZhMmFJNWlWeUR4N1pFL3c4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NjQ4Mzk2CWZpbGU6UnVuZXRpZnlfMC4yLjE5N194NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjE5Nwo3ai9hYkMzWE9hRzZMQys5VHFvOC9ENlpycXlRZmlvd1p3QUtaT3B3YTBESXpVNkpVWXJVaHJjSVUyQStqRmc3c0J5WG81YXdleG52ZERIdDhHU0JCUT09Cg==",
+      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.197/Runetify_0.2.197_x64-setup.exe"
     }
   }
 }
