@@ -1,11 +1,11 @@
 {
-  "version": "0.2.203",
-  "notes": "Only Climb: Better Together root-cause fix: eradicated MaterialShared.cpp:727 'Tried to access cooked shader map ID from unknown thread' by configuring DefaultExecuteInGameThreadMethod=EngineTick in UE4SS-settings.ini to ensure all mod operations run strictly on the Engine Tick Game Thread; fixed main menu clicking unresponsiveness by setting HookLocalPlayerExec=0 to prevent VTable corruption of ULocalPlayer; prevented event loop fatal crashes by replacing UEHelpers error throws with safe nil returns; purged rogue enabled.txt markers from FastMantle and HeightTag; and verified all 42 commands across Helpful, Chaos, Mod Pack (watermelons, Jerry, Miku, lightning, swords, wheelchair, etc.), and Tweaks Pack.",
-  "pub_date": "2026-11-14T15:25:00.675Z",
+  "version": "0.2.204",
+  "notes": "Only Climb: Better Together D3D12 GPU crash fix: resolved DXGI_ERROR_DEVICE_RESET in D3D12Submission.cpp:939 by implementing non-blocking staggered Blueprint mod actor spawning (1 mod per 200ms) to eliminate sudden multi-actor D3D12 GPU queue spikes; set GraphicsAPI=opengl in UE4SS-settings.ini to prevent rogue D3D11 swapchain hooking onto the game's DirectX 12 pipeline; capped loading framerate at 120 FPS; and verified all 42 commands across Helpful, Chaos, Mod Pack (watermelons, Jerry, Miku, lightning, swords, wheelchair, etc.), and Tweaks Pack.",
+  "pub_date": "2026-11-14T15:43:23.121Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ2JDQnA5N0M5MnJaOFZmNm02S0llVDAxL25PczBTRUR4d1ZoR1JBRkVGVFN2OHUreDNFazFZWEFuampBTk5uR0oxVDc0ZDhOT2NSMTYrOVpYaHc2K1FZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NjY5ODk2CWZpbGU6UnVuZXRpZnlfMC4yLjIwM194NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjIwMwo0WHBvL2ttSFh0WEFLbW9uRXFlQ0tsNlQ4RG5ob1pMYmQvalNDNGVNOWpiL3pIZkhNb0hmMU5KYkcvK3R6WG0veldlamovdWhGTkMranMvYzJSTURBUT09Cg==",
-      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.203/Runetify_0.2.203_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ1VqUklKMENRbndVSDBjS09kbWRnYzZSZGlTVnh6eUtNTVVnZUFlaGV1TjlTNkhxWERNY2tPSFlQU1hSbnhpWTN4MnVsYWtPZGNabm9qNmVMSUZzUndZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NjcwOTk3CWZpbGU6UnVuZXRpZnlfMC4yLjIwNF94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjIwNAo1V0doUlVDZDMybVpoaWZENnZqTXBwUndYT1V6V3pZMzdGZnZPZkNIYk1TcE1TOEQ1L0Rkcms4dDdoQklTZGFMVlZoTm4yUHA1ai9BeWxSbG80ZnNCUT09Cg==",
+      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.204/Runetify_0.2.204_x64-setup.exe"
     }
   }
 }
