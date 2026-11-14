@@ -1,11 +1,11 @@
 {
-  "version": "0.2.201",
-  "notes": "Only Climb: Better Together definitive release: eradicated level loading hangs and MaterialShared.cpp:727 cooked shader crash by removing intrusive global AActor::BeginPlay hooks and deferring BP mod spawning strictly to the Game Thread after the climber pawn has possessed; restored responsive Main Menu mouse clicks by actively enforcing cursor visibility and removing recursive native ClientRestart hooks across FlyMode, CheckpointCycle, ChanclaRagdoll, FastMantle, and HeightTag; enabled Actor:EnableInput(pc) and PlayerController key dispatch so all 42 commands across Helpful, Chaos, Mod Pack (watermelons, Jerry, Miku, lightning, swords, wheelchair, etc.), and Tweaks Pack trigger their authentic Blueprint effects seamlessly.",
-  "pub_date": "2026-11-14T14:13:01.546Z",
+  "version": "0.2.202",
+  "notes": "Only Climb: Better Together optimization and click focus fix: eliminated game focus disruption and need to Alt-Tab by removing SetForegroundWindow/SendInput and retaining seamless background PostMessage window message queuing; executed all UObject lookups strictly on the Unreal Engine Game Thread via ExecuteInGameThread to eliminate startup Event loop crashes; optimized UE4SS-settings.ini with GraphicsAPI=dx11 and HookBeginPlay=0; disabled disruptive background loops in FastMantle and HeightTag; and verified all 42 commands across Helpful, Chaos, Mod Pack (watermelons, Jerry, Miku, lightning, swords, wheelchair, etc.), and Tweaks Pack.",
+  "pub_date": "2026-11-14T14:53:37.166Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ1QvSWVMWTcrNmhoazZROTFFYVVPbnNrTVpkWjR2bHk1ZDFqcUhPckZnck04QmFKZVNLeERPeFNiNGlKV05WRXpLSExZVzJDL0tpQmFLTVJvT1YvUVFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NjY1NTc2CWZpbGU6UnVuZXRpZnlfMC4yLjIwMV94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjIwMQpRQjlaVUNJRGNwa29jQ3NGK0pYNU1jN1h3YTBWT01XdHljUUxVOEtabWdxQjZVSUptdEg1enRUNnFBYzByYlNvNkFqZzU0eWJnZlZWWmhBMU9JQjdDZz09Cg==",
-      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.201/Runetify_0.2.201_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ1ZxYlRFN0lRc2tyQnBGUjVJdTE4aWg5cjBNT08rM21tVTEvRVVtU2Z6YndWOC9jQ1NvaTdiYUtRK2Q2OE50alBvcVVTclU0dDd1RDRxNW8zTkU1OWdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NjY4MDEyCWZpbGU6UnVuZXRpZnlfMC4yLjIwMl94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjIwMgplTFlRYnd0UURVN2R6UldIUCtVK2hEbzNLMnUwOGtQRUhZNUczaVpsdjR6ZUlacWpTL3cvNnlRMWVtMm1naVdCQ1FvSHdjQm9nUDd1YlNVaEtXTVpCZz09Cg==",
+      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.202/Runetify_0.2.202_x64-setup.exe"
     }
   }
 }
