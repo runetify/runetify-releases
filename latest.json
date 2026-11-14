@@ -1,11 +1,11 @@
 {
-  "version": "0.2.194",
-  "notes": "Official Only Climb: Better Together full integration: fix steam launch error, enforce strict private cloud mod installation from GitHub, activate all 42 commands including Mod Pack (watermelons, swords, miku, tornado, lightning, firecrackers) and Tweaks Pack (chancla, sausage, king kong) with automatic RunetifyGate session token generation.",
-  "pub_date": "2026-11-14T07:08:48.027Z",
+  "version": "0.2.195",
+  "notes": "Fix Only Climb map loading freeze/crash: remove conflicting patch paks overwriting MetaHumans, eliminate orphaned .ucas containers, optimize BPModLoaderMod with deferred non-blocking staggered mod spawning (ignoring main menu level), implement dedicated RunetifyMod command listener for all 42 commands with live ready reporting, and preserve both ocbt.exe and onlyclimbtogether.exe.",
+  "pub_date": "2026-11-14T08:17:04.881Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ1lGNCtCN0lmSzJyWmdqU0t6VkhkZHJUYzdTdG9vRVNtdUZ3MTJFQlppMDVyMk9ydHl3VTlTMHZUd0szRTUxVklpclNJeEdyZzJkWnQ0T2pYWVRXUkFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NjQwMTIzCWZpbGU6UnVuZXRpZnlfMC4yLjE5NF94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjE5NApNa3hZV0RXUEpxZnpPNGQvbmc2RWNuU2RRMHBRaGl3WkJpU2UxM3JySzJ5SG1SU2RWWmRrQ1dRbE5uZWF6SEI5WjFDSUJ4ank1UDJIV2hkQUZBQ3ZEdz09Cg==",
-      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.194/Runetify_0.2.194_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ2I3Ry9YMjRIV0wwNjY1VklFNEV2b2xvdmZiejN4STJRVmZiNC9tT252OCs0UXlMQWRuTXU5Z3lXU2VNL3BVNmR1QnNNZ0xycnlTSWdJNk5BMmx0S0E4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NjQ0MjE5CWZpbGU6UnVuZXRpZnlfMC4yLjE5NV94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjE5NQpNRWo0dXBVaTVsTXdnMnZ3Q2RFSXZvWXVWWEtQZEp1T1ZONjU2V2RsMTF6MWViVlNWaFRES2F4KzM5QnBkc2w1MkgyNTNacmprU0xOc3BxQ3dMcE5Bdz09Cg==",
+      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.195/Runetify_0.2.195_x64-setup.exe"
     }
   }
 }
