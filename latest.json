@@ -1,11 +1,11 @@
 {
-  "version": "0.2.200",
-  "notes": "Only Climb: Better Together definitive stability release: completely resolved MaterialShared.cpp:727 cooked shader crash by moving BP mod loading strictly to game thread BeginPlay and eliminating async timer thread spawning; fixed main menu click responsiveness by isolating player climber pawns and ignoring MainMenu spectator pawns; enabled all 42 commands across Helpful, Chaos, Mod Pack (watermelons, Jerry, Miku, lightning, swords, wheelchair, etc.), and Tweaks Pack with dual hardware scan code injection and native mod actor triggers.",
-  "pub_date": "2026-11-14T12:54:47.818Z",
+  "version": "0.2.201",
+  "notes": "Only Climb: Better Together definitive release: eradicated level loading hangs and MaterialShared.cpp:727 cooked shader crash by removing intrusive global AActor::BeginPlay hooks and deferring BP mod spawning strictly to the Game Thread after the climber pawn has possessed; restored responsive Main Menu mouse clicks by actively enforcing cursor visibility and removing recursive native ClientRestart hooks across FlyMode, CheckpointCycle, ChanclaRagdoll, FastMantle, and HeightTag; enabled Actor:EnableInput(pc) and PlayerController key dispatch so all 42 commands across Helpful, Chaos, Mod Pack (watermelons, Jerry, Miku, lightning, swords, wheelchair, etc.), and Tweaks Pack trigger their authentic Blueprint effects seamlessly.",
+  "pub_date": "2026-11-14T14:13:01.546Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ1V0WWN4WTRJcllwcnhhUEduQUF1NlZFWU5maWxCTWVLYXV5bFFhdHd0UlhvV3BHdWdoL3l0ZEhRdlFyS21NTEtSaHJCS2gzVXhFa0NOYW0xYkJlTndrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NjYwODgyCWZpbGU6UnVuZXRpZnlfMC4yLjIwMF94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjIwMAozMnFJeXFocSsxQittbnJzYzM0M0tTWDRIN1BQdzJWMHBHZ2Jic1dQYjJlZ2dvVlU4ZXIyajZ3bmVWeENaSHdwbVhheE5PVkxaUzQvVSsvMzI0Vi9Cdz09Cg==",
-      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.200/Runetify_0.2.200_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ1QvSWVMWTcrNmhoazZROTFFYVVPbnNrTVpkWjR2bHk1ZDFqcUhPckZnck04QmFKZVNLeERPeFNiNGlKV05WRXpLSExZVzJDL0tpQmFLTVJvT1YvUVFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NjY1NTc2CWZpbGU6UnVuZXRpZnlfMC4yLjIwMV94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjIwMQpRQjlaVUNJRGNwa29jQ3NGK0pYNU1jN1h3YTBWT01XdHljUUxVOEtabWdxQjZVSUptdEg1enRUNnFBYzByYlNvNkFqZzU0eWJnZlZWWmhBMU9JQjdDZz09Cg==",
+      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.201/Runetify_0.2.201_x64-setup.exe"
     }
   }
 }
