@@ -1,11 +1,11 @@
 {
-  "version": "0.2.193",
-  "notes": "Official Only Climb: Better Together integration: 42 categorized actions across Helpful, Chaos, Mod Pack, Tweaks Pack, and Better Together Mod Pack; hardened anti-scrape RunetifyGate session verification with XOR key masking and hardware machine binding; Blueprint modloader pack support; high-res game banner; and synchronized overlay templates.",
-  "pub_date": "2026-11-14T05:50:26.951Z",
+  "version": "0.2.194",
+  "notes": "Official Only Climb: Better Together full integration: fix steam launch error, enforce strict private cloud mod installation from GitHub, activate all 42 commands including Mod Pack (watermelons, swords, miku, tornado, lightning, firecrackers) and Tweaks Pack (chancla, sausage, king kong) with automatic RunetifyGate session token generation.",
+  "pub_date": "2026-11-14T07:08:48.027Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ1FHZzZDYzhnT1crcGZCRHQ3NEJzOVc1UmYwaWJtcjQ3YWlQWHR4dE4za1hFdkN4Rlg0bjZkejc3OG8wRGMvZmFJZC9rS1JJUHFSMGhqbHZ5UWdybWdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NjM1NDE0CWZpbGU6UnVuZXRpZnlfMC4yLjE5M194NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjE5MwpNZk9WVnRybWF4ell6K2ZGbmlCbERKUmJPRi9yMm1JRmFEVnczb2F3OVUzaC8xQjR0clZqelpUamhjMk9EenA5Ni9sdVZCYTZ1QzR4a0pLdjRNNDNCZz09Cg==",
-      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.193/Runetify_0.2.193_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ1lGNCtCN0lmSzJyWmdqU0t6VkhkZHJUYzdTdG9vRVNtdUZ3MTJFQlppMDVyMk9ydHl3VTlTMHZUd0szRTUxVklpclNJeEdyZzJkWnQ0T2pYWVRXUkFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NjQwMTIzCWZpbGU6UnVuZXRpZnlfMC4yLjE5NF94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjE5NApNa3hZV0RXUEpxZnpPNGQvbmc2RWNuU2RRMHBRaGl3WkJpU2UxM3JySzJ5SG1SU2RWWmRrQ1dRbE5uZWF6SEI5WjFDSUJ4ank1UDJIV2hkQUZBQ3ZEdz09Cg==",
+      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.194/Runetify_0.2.194_x64-setup.exe"
     }
   }
 }
