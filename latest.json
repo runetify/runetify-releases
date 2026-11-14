@@ -1,11 +1,11 @@
 {
-  "version": "0.2.192",
-  "notes": "Runetify 0.2.192 — Streamed command selection without page controls, refreshed game and tools spinner, and updated L4D2 and PvZ Fusion mod fixes.",
-  "pub_date": "2026-11-14T02:46:46.059Z",
+  "version": "0.2.193",
+  "notes": "Official Only Climb: Better Together integration: 42 categorized actions across Helpful, Chaos, Mod Pack, Tweaks Pack, and Better Together Mod Pack; hardened anti-scrape RunetifyGate session verification with XOR key masking and hardware machine binding; Blueprint modloader pack support; high-res game banner; and synchronized overlay templates.",
+  "pub_date": "2026-11-14T05:50:26.951Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ2V3UWIzVTBUUlhXT3JWWVQrZFFpeFlDdVpLMFIvN0VrK3d4QzJ4V1NWZ0g1QllIWVk3QjV0RUpZNWk2MG5nOWdGc0dPaHdNRFZVSVhPMlRVWHRyelFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NjI0NDAyCWZpbGU6UnVuZXRpZnlfMC4yLjE5Ml94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjE5MgpqelJqeGU0bnlZenhHSENSejhrZENVRlVBOVIzSzZvU21jNE5FT0JCbEhlQ0ZrMEZxbms2K1FybU9mVUcyblA0VUlTeWlXdy9QcVdYU1MvcXJsRm9BQT09Cg==",
-      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.192/Runetify_0.2.192_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ1FHZzZDYzhnT1crcGZCRHQ3NEJzOVc1UmYwaWJtcjQ3YWlQWHR4dE4za1hFdkN4Rlg0bjZkejc3OG8wRGMvZmFJZC9rS1JJUHFSMGhqbHZ5UWdybWdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NjM1NDE0CWZpbGU6UnVuZXRpZnlfMC4yLjE5M194NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjE5MwpNZk9WVnRybWF4ell6K2ZGbmlCbERKUmJPRi9yMm1JRmFEVnczb2F3OVUzaC8xQjR0clZqelpUamhjMk9EenA5Ni9sdVZCYTZ1QzR4a0pLdjRNNDNCZz09Cg==",
+      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.193/Runetify_0.2.193_x64-setup.exe"
     }
   }
 }
