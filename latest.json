@@ -1,11 +1,11 @@
 {
-  "version": "0.2.190",
-  "notes": "Left 4 Dead 2 instant revive on spectated teammate (eliminated defib screen flash and shock audio, zero getup animation delay), eradicated l4d2_nextmap auto-change timer, restored Overlord bosses and Super Tank ability reliability, and enhanced Spotify setup with native disk persistence, auto-saving Client ID on paste/input, and suppressed startup dialog prompts.",
-  "pub_date": "2026-11-14T01:19:26.109Z",
+  "version": "0.2.191",
+  "notes": "Spotify Developer App overhaul: restored the full 5-step visual setup guide, completely removed browser account login requirements (saving your Client ID immediately activates song requests and overlays without popping up browser authorization), eradicated recurring startup dialogs, and streamlined song queueing.",
+  "pub_date": "2026-11-14T02:00:13.841Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ2FPRzdFLzl3Zy9SbTVad1pBVU5hdnFYN0ZGVmc4dzcwdEVTeU9uWnJrL3RQa29TdWZ5OEZWK0NrVFVYV25GSjlFQkErcHhXNVZLbnIxdXJLUVVmcFFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NjE4MzU5CWZpbGU6UnVuZXRpZnlfMC4yLjE5MF94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjE5MApvVm9XSmhFUXpYYXhmTzhpSXhqUC9XelhCZ1JYS2JnTS92MXM3eWlDTlEvNzdCbGQ1K2xTTjB4U3VEUDczWGtLYS9teWlZRjVHbUtoYUlKVHRNbWxEZz09Cg==",
-      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.190/Runetify_0.2.190_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ1ZDOEtjTjJNSGFJVUNwV28zV3lhbzVmNWVUa0J0cVdYNnl4SDRJMWcxK1M1L0NjTFViNlNQQ21mNE4xUGJJNlNnWDlQZEROTW5aNkVyMnR3RGZaNHcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NjIxNjA4CWZpbGU6UnVuZXRpZnlfMC4yLjE5MV94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjE5MQpWWVluaGt6aURPSVg2N3pWMXh3R1o1RzBCeENPbFhwTHZ4bEpmcFVRSHZoRmhDeG44eFVEQ0ovaDJMNHpzNFVxVDZRUjRXVzl1YXZvbzR0TmU3bExEZz09Cg==",
+      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.191/Runetify_0.2.191_x64-setup.exe"
     }
   }
 }
