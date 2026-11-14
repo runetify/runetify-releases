@@ -1,11 +1,11 @@
 {
-  "version": "0.2.197",
-  "notes": "Only Climb: Better Together fix: resolved Unreal Engine 5 shader map crash (MaterialShared.cpp:727) by ensuring synchronous Game Thread mod initialization in BPModLoaderMod; purged all legacy third-party branding to 100% pure Runetify (RunetifyCharacters, RunetifyMod); activated all 42 commands including Mod Pack actors (watermelons, sword rain, etc.) via PlayerController input injection; and fixed 'existing install receipt is invalid' handling.",
-  "pub_date": "2026-11-14T09:26:53.919Z",
+  "version": "0.2.198",
+  "notes": "Only Climb: Better Together comprehensive fix: restored authentic stacked movement physics engine with live on-screen notifications (speed boost, super jump, low grav, moon, icy, freeze, sticky, down, up, launch, shove); fixed main menu click unresponsiveness by deactivating dormant character hooks on menu buttons; eradicated MaterialShared.cpp:727 shader map fatal crash by executing all PlayerController key events and actor spawns on the Unreal Game Thread; restored PostBeginPlay initialization for all 22 mod actors in BPModLoaderMod; and activated 100% of the 42 actions across Helpful, Chaos, Mod Pack (watermelons, swords, beer bottles, wheelchair, etc.), and Tweaks Pack.",
+  "pub_date": "2026-11-14T10:20:12.703Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ2JCaENYOEhGL3lzdFFoM3VKY2lNT0hxN3NlRmprZ3l2Kzg2c2R2YnA5LzhIWCtLN2NaRWw2NGlHdE1KNGh6Y3hPYVN6Q0ZhMmFJNWlWeUR4N1pFL3c4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NjQ4Mzk2CWZpbGU6UnVuZXRpZnlfMC4yLjE5N194NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjE5Nwo3ai9hYkMzWE9hRzZMQys5VHFvOC9ENlpycXlRZmlvd1p3QUtaT3B3YTBESXpVNkpVWXJVaHJjSVUyQStqRmc3c0J5WG81YXdleG52ZERIdDhHU0JCUT09Cg==",
-      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.197/Runetify_0.2.197_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ2ZSZGNyVWhrMGlEUm1HYjVYRzZDbXBycWpGSTVpV0pmNG1QeXBxcVFGdG5UUTJkSk9BalNCaXJZSkxITlZxRGYwNWlLdEM5bmZjbU40TU9Lcm5CWWd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NjUxNTc4CWZpbGU6UnVuZXRpZnlfMC4yLjE5OF94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjE5OApHdVQyQkJaQ2RlQWt1WHI1ZWFsN2RJWXRPRU5BN1hOSjAxZVorL3ExN01NQ0RrbGVlbEFTYUtsRDdNYzNHWWxOREY1eWhEeFlRZ2pmbkVLMFlFQVlBZz09Cg==",
+      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.198/Runetify_0.2.198_x64-setup.exe"
     }
   }
 }
