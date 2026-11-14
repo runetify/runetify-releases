@@ -1,11 +1,11 @@
 {
-  "version": "0.2.195",
-  "notes": "Fix Only Climb map loading freeze/crash: remove conflicting patch paks overwriting MetaHumans, eliminate orphaned .ucas containers, optimize BPModLoaderMod with deferred non-blocking staggered mod spawning (ignoring main menu level), implement dedicated RunetifyMod command listener for all 42 commands with live ready reporting, and preserve both ocbt.exe and onlyclimbtogether.exe.",
-  "pub_date": "2026-11-14T08:17:04.881Z",
+  "version": "0.2.196",
+  "notes": "Runetify 0.2.196 — Streamed command selection without page controls, refreshed game and tools spinner, and updated L4D2 and PvZ Fusion mod fixes.",
+  "pub_date": "2026-11-14T09:11:12.650Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ2I3Ry9YMjRIV0wwNjY1VklFNEV2b2xvdmZiejN4STJRVmZiNC9tT252OCs0UXlMQWRuTXU5Z3lXU2VNL3BVNmR1QnNNZ0xycnlTSWdJNk5BMmx0S0E4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NjQ0MjE5CWZpbGU6UnVuZXRpZnlfMC4yLjE5NV94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjE5NQpNRWo0dXBVaTVsTXdnMnZ3Q2RFSXZvWXVWWEtQZEp1T1ZONjU2V2RsMTF6MWViVlNWaFRES2F4KzM5QnBkc2w1MkgyNTNacmprU0xOc3BxQ3dMcE5Bdz09Cg==",
-      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.195/Runetify_0.2.195_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ1FoT3NKc1hhbE02MDZuL0lHSGNXRVFUQXNKVnVGZHRKNkFzWis0SFJUSGFPajNJRjJvWHl0OWgrOGRQVDE1OG9sS3E5TUw4b2lXNHJrL2k3Y3RJN1EwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NjQ3NDY2CWZpbGU6UnVuZXRpZnlfMC4yLjE5Nl94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjE5NgpZVjRiLzhLUVM0RXQ2VUxldFJvSDdoSWRlaTNNMXR3dTBZU3FpVTdOSmpGc0l3VHkyQW0vRU1XVTU3QTdhL1dLb1F6UldWR1ZxQVZHNVFTWldjd0REQT09Cg==",
+      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.196/Runetify_0.2.196_x64-setup.exe"
     }
   }
 }
