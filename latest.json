@@ -1,11 +1,11 @@
 {
-  "version": "0.2.191",
-  "notes": "Spotify Developer App overhaul: restored the full 5-step visual setup guide, completely removed browser account login requirements (saving your Client ID immediately activates song requests and overlays without popping up browser authorization), eradicated recurring startup dialogs, and streamlined song queueing.",
-  "pub_date": "2026-11-14T02:00:13.841Z",
+  "version": "0.2.192",
+  "notes": "Runetify 0.2.192 — Streamed command selection without page controls, refreshed game and tools spinner, and updated L4D2 and PvZ Fusion mod fixes.",
+  "pub_date": "2026-11-14T02:46:46.059Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ1ZDOEtjTjJNSGFJVUNwV28zV3lhbzVmNWVUa0J0cVdYNnl4SDRJMWcxK1M1L0NjTFViNlNQQ21mNE4xUGJJNlNnWDlQZEROTW5aNkVyMnR3RGZaNHcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NjIxNjA4CWZpbGU6UnVuZXRpZnlfMC4yLjE5MV94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjE5MQpWWVluaGt6aURPSVg2N3pWMXh3R1o1RzBCeENPbFhwTHZ4bEpmcFVRSHZoRmhDeG44eFVEQ0ovaDJMNHpzNFVxVDZRUjRXVzl1YXZvbzR0TmU3bExEZz09Cg==",
-      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.191/Runetify_0.2.191_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ2V3UWIzVTBUUlhXT3JWWVQrZFFpeFlDdVpLMFIvN0VrK3d4QzJ4V1NWZ0g1QllIWVk3QjV0RUpZNWk2MG5nOWdGc0dPaHdNRFZVSVhPMlRVWHRyelFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NjI0NDAyCWZpbGU6UnVuZXRpZnlfMC4yLjE5Ml94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjE5MgpqelJqeGU0bnlZenhHSENSejhrZENVRlVBOVIzSzZvU21jNE5FT0JCbEhlQ0ZrMEZxbms2K1FybU9mVUcyblA0VUlTeWlXdy9QcVdYU1MvcXJsRm9BQT09Cg==",
+      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.192/Runetify_0.2.192_x64-setup.exe"
     }
   }
 }
