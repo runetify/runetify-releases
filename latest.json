@@ -1,11 +1,11 @@
 {
-  "version": "0.2.204",
-  "notes": "Only Climb: Better Together D3D12 GPU crash fix: resolved DXGI_ERROR_DEVICE_RESET in D3D12Submission.cpp:939 by implementing non-blocking staggered Blueprint mod actor spawning (1 mod per 200ms) to eliminate sudden multi-actor D3D12 GPU queue spikes; set GraphicsAPI=opengl in UE4SS-settings.ini to prevent rogue D3D11 swapchain hooking onto the game's DirectX 12 pipeline; capped loading framerate at 120 FPS; and verified all 42 commands across Helpful, Chaos, Mod Pack (watermelons, Jerry, Miku, lightning, swords, wheelchair, etc.), and Tweaks Pack.",
-  "pub_date": "2026-11-14T15:43:23.121Z",
+  "version": "0.2.205",
+  "notes": "Only Climb: Better Together authentic StreamVibe port v0.2.205: restored original RegisterBeginPlayPostHook architecture for BPModLoaderMod to eliminate cooked shader crashes; restored HookBeginPlay=1 with HookLocalPlayerExec=0 for instant mouse focus without Alt-Tab; aligned RunetifyMod polling with NotifyOnNewObject player lifecycle; converted all internal naming, comments, and file paths from StreamVibe to Runetify; and verified all 42 commands across Helpful, Chaos, Mod Pack (watermelons, Jerry, Miku, lightning, swords, wheelchair, etc.), and Tweaks Pack.",
+  "pub_date": "2026-11-14T16:45:10.629Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ1VqUklKMENRbndVSDBjS09kbWRnYzZSZGlTVnh6eUtNTVVnZUFlaGV1TjlTNkhxWERNY2tPSFlQU1hSbnhpWTN4MnVsYWtPZGNabm9qNmVMSUZzUndZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NjcwOTk3CWZpbGU6UnVuZXRpZnlfMC4yLjIwNF94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjIwNAo1V0doUlVDZDMybVpoaWZENnZqTXBwUndYT1V6V3pZMzdGZnZPZkNIYk1TcE1TOEQ1L0Rkcms4dDdoQklTZGFMVlZoTm4yUHA1ai9BeWxSbG80ZnNCUT09Cg==",
-      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.204/Runetify_0.2.204_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ2ZyaVdwSk5WK0I0dkhNeXlNcjJMZXc2V09xWGRNQmVacGduYkZJZ2wzSThTK0ZkdEtkTnlvejdJdE1uVkpCZWRmSjVFSlBtUjYyTmlhOUliNldKRlFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0Njc0NzA1CWZpbGU6UnVuZXRpZnlfMC4yLjIwNV94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjIwNQozdmRjazd1eHhxbThSeEFsMVl5R2hEckg4L3gwQVovdCtsbjEvRitCUC9pMWppeW0ySnlDKzlHcU50LzRUQTB0VDJJdGNXRXFKTUFZaG5lMFVFQkNCUT09Cg==",
+      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.205/Runetify_0.2.205_x64-setup.exe"
     }
   }
 }
