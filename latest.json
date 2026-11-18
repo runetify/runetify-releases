@@ -1,11 +1,11 @@
 {
-  "version": "0.2.207",
-  "notes": "Clash Royale dedicated UI controls & setup options: added explicit header controls for Connect Emulator (ADB discovery & reverse ports 9339, 9350, 9351, 8889), Install APK (direct AstralRoyale.apk installation via ADB), and Start Server (Royale.Server background daemon lifecycle & connection status synchronization).",
-  "pub_date": "2026-11-18T15:49:09.272Z",
+  "version": "0.2.208",
+  "notes": "Runetify 0.2.208 — Streamed command selection without page controls, refreshed game and tools spinner, and updated L4D2 and PvZ Fusion mod fixes.",
+  "pub_date": "2026-11-18T18:20:57.442Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ2Q1VysvWGVjb2FzbnJPbC9KeEx4Q3k3UlMzODdwVEcwa1lkNDYvb3ZNeE5pSXF5YXpxMmhMOUdXY1BYOURQSENlaFk2NHFSQ0s0MzE2OEY1OFh0NHdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MDE2OTQ1CWZpbGU6UnVuZXRpZnlfMC4yLjIwN194NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjIwNwpHNFVsdUI0SmVCRGpzMkthZlljKzM2bUJSdGZTMjZHMmttZ0FTR3UvTFkwL1lrZGJWN1IydVFKckhMc3VHeGROWDNKamRFVGpVaTFHWE5OVFpyU1FDQT09Cg==",
-      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.207/Runetify_0.2.207_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ2Q1VysvWGVjb2FzbnJPbC9KeEx4Q3k3UlMzODdwVEcwa1lkNDYvb3ZNeE5pSXF5YXpxMmhMOUdXY1BYOURQSENlaFk2NHFSQ0s0MzE2OEY1OFh0NHdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MDI2MDU3CWZpbGU6UnVuZXRpZnlfMC4yLjIwN194NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjIwOAptcHQvLytsbG81SjcwUHo0RGFycVhXcTJHOGN2L1BVY1J2R0JtbktOOFJVR1l3OGFMK2dSR2FjZWlvbXdzZTlwYk5KRkxCM3ZUcHAwNmtHdTRRUmRCUT09Cg==",
+      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.208/Runetify_0.2.208_x64-setup.exe"
     }
   }
 }
