@@ -1,11 +1,11 @@
 {
-  "version": "0.2.205",
-  "notes": "Only Climb: Better Together authentic StreamVibe port v0.2.205: restored original RegisterBeginPlayPostHook architecture for BPModLoaderMod to eliminate cooked shader crashes; restored HookBeginPlay=1 with HookLocalPlayerExec=0 for instant mouse focus without Alt-Tab; aligned RunetifyMod polling with NotifyOnNewObject player lifecycle; converted all internal naming, comments, and file paths from StreamVibe to Runetify; and verified all 42 commands across Helpful, Chaos, Mod Pack (watermelons, Jerry, Miku, lightning, swords, wheelchair, etc.), and Tweaks Pack.",
-  "pub_date": "2026-11-14T16:45:10.629Z",
+  "version": "0.2.206",
+  "notes": "Clash Royale complete integration: restored Royale.Server.exe background daemon, automated Android emulator ADB connection and reverse port forwarding (9339, 9350, 9351, 8889), automatic AstralRoyale.apk installation, and full in-game troop/spell action spawning with coordinates calculation; synced web widget and overlay assets.",
+  "pub_date": "2026-11-18T15:33:13.793Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ2ZyaVdwSk5WK0I0dkhNeXlNcjJMZXc2V09xWGRNQmVacGduYkZJZ2wzSThTK0ZkdEtkTnlvejdJdE1uVkpCZWRmSjVFSlBtUjYyTmlhOUliNldKRlFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0Njc0NzA1CWZpbGU6UnVuZXRpZnlfMC4yLjIwNV94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjIwNQozdmRjazd1eHhxbThSeEFsMVl5R2hEckg4L3gwQVovdCtsbjEvRitCUC9pMWppeW0ySnlDKzlHcU50LzRUQTB0VDJJdGNXRXFKTUFZaG5lMFVFQkNCUT09Cg==",
-      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.205/Runetify_0.2.205_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ1JtM2tOaW92R2hQUE0xRWdObzU2L29rSmdEKzdnWGhqRUdueVpjaXZ1WXdCYzlWVFJseEhpaWY1T2dhRzI2bkZHY2Jna1FBOWZpSjRydlhNZUxqRkE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MDE1OTkwCWZpbGU6UnVuZXRpZnlfMC4yLjIwNl94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjIwNgpOWlVJL21PajA5eWVRRUd5OFhSTTE5YTNUTndOSnlGTFhZOTFnSHhvOVlvR2pKM0E4OTBIN0U2T2t0YXhUcUF0TUx0c3N5anBXYUJOU1Bkek5YbGpCZz09Cg==",
+      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.206/Runetify_0.2.206_x64-setup.exe"
     }
   }
 }
