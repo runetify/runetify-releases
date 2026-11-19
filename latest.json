@@ -1,11 +1,11 @@
 {
-  "version": "0.2.218",
-  "notes": "Runetify 0.2.218 — Streamed command selection without page controls, refreshed game and tools spinner, and updated L4D2 and PvZ Fusion mod fixes.",
-  "pub_date": "2026-11-19T10:05:19.954Z",
+  "version": "0.2.219",
+  "notes": "Clash Royale action spawning and ADB bridge fix: corrected side parameter validation in action_command_id to accept enemy/player/team/streamer, locked HTTP requests strictly to Control API port 9350 with accurate error reporting (preventing false successes and raw socket 9339 timeout stalls), automated ADB path injection for Royale.Server.exe background daemon, automated emulator port probing for ADB and APK status checks, unified multi-count troop deployment, and ensured Royale.Server and ADB processes cleanly terminate when Runetify closes.",
+  "pub_date": "2026-11-19T11:16:00.320Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ2N3NlBlaVhlQ3FZRUNCaDZpblIzZmJHcWZ3V0RCcmhZUVp6TURRVDZzeUM4dlc3ZCtNRmJhakxQejV5VkIzVENpY044UXNkbGxUa0JDQUVVcG5CMndzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MDgyNzE5CWZpbGU6UnVuZXRpZnlfMC4yLjIxOF94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjIxOApvU3h0L2MwZ3NwSmtpU0Jwd2U3L1hQQmoxbk1PSjJtMmhqcnpTVTBsdkxuTkx0NnBFNHhMZ2JKaFNjTW1xN3YzdEdnbkxRTXBOeUFyWVB0ZDR5V0xCUT09Cg==",
-      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.218/Runetify_0.2.218_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ1M4M2E5SXc2ZzE1dzNEa1c1MERRMHZTUWNvTHA3Szhsc2pDYVRYU3hrbVJaUXI0YW43ZTgzR0RPckpGcTdBeGhRUkkwTUVoZUlxRWFkYWVLYjB4VFF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MDg2OTU0CWZpbGU6UnVuZXRpZnlfMC4yLjIxOV94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjIxOQp6c29rbkFIWXJ6TkFubk1DRjY2Zms5QmYxNHZjOWM3OVkzZlRuelRXUTlXTlZpYk1GaEQ4YkVLRzJ1U0lvdEtTRDNXSjB3UlVSMUlodWhJR3pXOEJDZz09Cg==",
+      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.219/Runetify_0.2.219_x64-setup.exe"
     }
   }
 }
