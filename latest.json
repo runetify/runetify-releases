@@ -1,11 +1,11 @@
 {
-  "version": "0.2.220",
-  "notes": "Clash Royale UI responsiveness and APK status detection fix: eliminated application freezing and 'Not Responding' states caused by synchronous ADB connect timeouts on closed emulator ports; added lightweight 35ms non-blocking TCP socket pre-probing; bundled and verified required AdbWinApi.dll alongside server ADB binaries; prevented multi-device ADB routing errors by explicitly addressing the active emulator serial with -s; made APK installation detection instantaneous via parallel async polling and automatic Reinstall/Uninstall button states; and prevented redundant concurrent polling loops in the desktop view.",
-  "pub_date": "2026-11-19T11:44:13.933Z",
+  "version": "0.2.221",
+  "notes": "Clash Royale card spawning and naming synchronization fix: synchronized full runtime-tables.json containing all 78 registered game cards from the original working Electron edition (resolving 'Carta no encontrada: Goblins'), restored royale.settings.json and royale-db.json to enforce 'Runetify.App' clan and streamer identity over default 'OverInteractive.live', implemented 4x elixir speed configuration via Control API, prevented BlueStacks 'hdb.exe error' crashes by ensuring HD-Adb.exe is never forcefully terminated, and restored multi-troop circular squad radius formation spawning.",
+  "pub_date": "2026-11-19T14:00:31.277Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ2VLZG9DY2UvQWlkT1lUNVBPMWpJQU9CN2xFcW04TjdmY0VJVktPaVEzNzJXZ25NS0ZWV2lOdDd4OE1xZThNZWlkUHBMVzhRSEdlREE0SkhOaUVxYVFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MDg4NjQ5CWZpbGU6UnVuZXRpZnlfMC4yLjIyMF94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjIyMApWMVJZSXFpRDA0Ry9tZ2Q0b25OdW53SnBmQ2tzTTdXY1RxU3p2SXJub3loMWJtSEd4UmRBcWVqU09NZ2tCdjd3QmVWSHVNVkJUejNXdGExa3F5akRCdz09Cg==",
-      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.220/Runetify_0.2.220_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ2F6Sk9RdzNBdlh5cE90SzNGdWFvNXdQeGNSYm1pd1JSVi9HTnJabTkvMzlGcWZiMUZ0WFo4ajlURUs1ZnlRcGdqOWVaM3pNZGp5MFpFa2h4S2Z4MVFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MDk2ODI1CWZpbGU6UnVuZXRpZnlfMC4yLjIyMV94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjIyMQp6dUE5N3Q1SEpHTjNUQ2FtWkI1eitSSmZwRy9oSHlobkpad2hJdkhuYlRnUFM0WUNpUnR5L2VmWkJqZzROenNKQjQva1UrMTVOREVlZ25laTJwWlhBUT09Cg==",
+      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.221/Runetify_0.2.221_x64-setup.exe"
     }
   }
 }
