@@ -1,11 +1,11 @@
 {
-  "version": "0.2.221",
-  "notes": "Clash Royale card spawning and naming synchronization fix: synchronized full runtime-tables.json containing all 78 registered game cards from the original working Electron edition (resolving 'Carta no encontrada: Goblins'), restored royale.settings.json and royale-db.json to enforce 'Runetify.App' clan and streamer identity over default 'OverInteractive.live', implemented 4x elixir speed configuration via Control API, prevented BlueStacks 'hdb.exe error' crashes by ensuring HD-Adb.exe is never forcefully terminated, and restored multi-troop circular squad radius formation spawning.",
-  "pub_date": "2026-11-19T14:00:31.277Z",
+  "version": "0.2.222",
+  "notes": "Runetify 0.2.222 — Streamed command selection without page controls, refreshed game and tools spinner, and updated L4D2 and PvZ Fusion mod fixes.",
+  "pub_date": "2026-11-19T14:30:24.113Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ2F6Sk9RdzNBdlh5cE90SzNGdWFvNXdQeGNSYm1pd1JSVi9HTnJabTkvMzlGcWZiMUZ0WFo4ajlURUs1ZnlRcGdqOWVaM3pNZGp5MFpFa2h4S2Z4MVFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MDk2ODI1CWZpbGU6UnVuZXRpZnlfMC4yLjIyMV94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjIyMQp6dUE5N3Q1SEpHTjNUQ2FtWkI1eitSSmZwRy9oSHlobkpad2hJdkhuYlRnUFM0WUNpUnR5L2VmWkJqZzROenNKQjQva1UrMTVOREVlZ25laTJwWlhBUT09Cg==",
-      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.221/Runetify_0.2.221_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ1pJR05KMHc2WEtkd1Vic0hDbkFHUW9lWXhjYldYaWRKbXJSclp6cVBqck5xZ3ptcVNnMDl6UlFUR0F5SVJyWUN2OWdYU2hUZDNCQWdSTXJ2M3Vxc2d3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MDk4NjE5CWZpbGU6UnVuZXRpZnlfMC4yLjIyMl94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjIyMgpWbmlvbHJVN0pFdUVCQU8zclQ3V0djUlR0UjV1T2tWcHNLWHVsS1htaGs2VUR1SVJpTS9nVnpHUEg5VldxMTZiQkY5L1JYY3ZoeklsRDJkZUNYcXdDUT09Cg==",
+      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.222/Runetify_0.2.222_x64-setup.exe"
     }
   }
 }
