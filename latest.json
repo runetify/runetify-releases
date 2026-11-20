@@ -1,11 +1,11 @@
 {
-  "version": "0.2.226",
-  "notes": "Runetify 0.2.226 — Streamed command selection without page controls, refreshed game and tools spinner, and updated L4D2 and PvZ Fusion mod fixes.",
-  "pub_date": "2026-11-20T04:37:59.329Z",
+  "version": "0.2.227",
+  "notes": "Clash Royale stability, automatic per-battle scenery and deck rotation, and lightning-fast elixir fix: eliminated BlueStacks HD-Adb.exe (0xc0000142 / 0xc000012d) application error crashes by preventing adb kill-server invocations on shutdown; ensured Royale.Server.exe and reverse emulator connections close cleanly on app exit; enabled ROYALE_AUTO_END with 4s silence detection so matches end properly; implemented automatic per-battle arena rotation (1-12) and automatic streamer-only 8-card deck randomization (leaving enemy deck untouched); unlocked lightning-fast 40x elixir speed by setting MANA_REGEN_MS to 25ms across all runtime tables; removed non-existent card commands (ghost, hunter, mini_zapmachine) without fallbacks; and streamlined desktop view.",
+  "pub_date": "2026-11-20T05:32:23.181Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ1kyVGxIekxuSUVnZ3R3WGc4RUQ3T2dqK24zMGtlZUZzVG81MlVEY3JKdzl3LzVtbS9HME5aVUQ3U0lOQzdqSHJOZFFiU0NxbHJkQW94NkFtcTRUbXd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTQ5NDc0CWZpbGU6UnVuZXRpZnlfMC4yLjIyNl94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjIyNgpxVG1RQ2dKUWt4emxrZ3FmaTRjVkhTT2JobnlUNEFyWll3VGJQRHRndlhZK3RzVVRkTkVHRDVrOWQxMm5iSkZ4TUdoOTl5Y2U2ZnpuWkRqemp0L0JEZz09Cg==",
-      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.226/Runetify_0.2.226_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ1hlMUFmaEVMN0t1dXljZVBjNnExazlhaFdOcjFPaktRZkNOVkFuSjkxaWhOUHhHcTFlUFdFRWRlZDQxUzhJeHh6OWJlMzdENDVIRTkrQXBNQ1NQU2dZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTUyNjY1CWZpbGU6UnVuZXRpZnlfMC4yLjIyN194NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjIyNwpVdmJ4ZVBGSGpVcVpteWwwb0ZqNnFWVTdqL2ZqdkE1NmpGNUlPNFUrdXdwZkN0Um1sR2lYMlg2akxuOC9MLzlWcEVEdGJMYjMzTThxUjhiRWRKQTREZz09Cg==",
+      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.227/Runetify_0.2.227_x64-setup.exe"
     }
   }
 }
