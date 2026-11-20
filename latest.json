@@ -1,11 +1,11 @@
 {
-  "version": "0.2.230",
-  "notes": "Clash Royale server control and unified design system release: resolved server offline / startup race condition by removing conflicting duplicate listeners and increasing startup poll timeout; implemented stop_clash_royale_server_cmd for clean lifecycle management; restyled Map, Who is Who, Pace, and Battle settings to match Runetify's native Actions, Overlay, and Roulette design system; synced battleLocationRow with live arena switching and ensured instant persistence.",
-  "pub_date": "2026-11-20T11:37:11.885Z",
+  "version": "0.2.231",
+  "notes": "Runetify 0.2.231 — Streamed command selection without page controls, refreshed game and tools spinner, and updated L4D2 and PvZ Fusion mod fixes.",
+  "pub_date": "2026-11-20T12:43:06.936Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ2F5WnNLd0FTWlpaNUJrN05mS3gwbmZZeHpJZm5BMVQxTmQ2Z2pZNzgzU3g0YTR2S2VUMGwxVWlFQTA1WHVTN0lGRzZWY1dwWU5MZGRVNGRtMGY3a1F3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTc0NjEyCWZpbGU6UnVuZXRpZnlfMC4yLjIzMF94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjIzMApGd2o3NWV6aU41c3lZTm1id2VUNmp3WGlHSlp1UGZ3cFhVeU9ncUNjN3o0ckFJakpXYXVBaER0WjlYQ2dyY3RGWjNEQ05hWExidHRaRGVwMjlzZFNCZz09Cg==",
-      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.230/Runetify_0.2.230_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ2ZTTkFENlUzTUxYMmlmczhlS3ZuSXdZbDFVcW5KNHhNOUtZNDVFYTFQb0tUOEVQbmlqMlhrQW5jdUJ5SnA2Q0tOem9UK0JPQ2JiMkQ5QXprQWpFSHdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTc4NTcyCWZpbGU6UnVuZXRpZnlfMC4yLjIzMV94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjIzMQpveGFpQ0dsUWI1b2NJSjJ0SkEveDhKTEtlcW1TS3JaQXVQTTl0T3IyYWF3TWFZMlIrbk5abDQyaGhTY2RtZVBXMUlTME9xTGRIWFU4dWtpR0Y2cm5BQT09Cg==",
+      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.231/Runetify_0.2.231_x64-setup.exe"
     }
   }
 }
