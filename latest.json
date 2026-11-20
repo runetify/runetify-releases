@@ -1,11 +1,11 @@
 {
-  "version": "0.2.236",
-  "notes": "Runetify 0.2.236 — Streamed command selection without page controls, refreshed game and tools spinner, and updated L4D2 and PvZ Fusion mod fixes.",
-  "pub_date": "2026-11-20T14:46:43.982Z",
+  "version": "0.2.237",
+  "notes": "Clash Royale card transparency, random triggers, and web overlay sync: replaced lossy card icons (Sparky, Miner, Lumberjack, Ice Spirit, Fire Spirits, Flying Machine) with authentic 150x180 RGBA transparent card renders, eliminating rectangular black containers; added 4 transparent Clash Royale random card triggers (Random Card, Random Troop, Random Building, Random Spell); synchronized web-deploy and dist assets; and eliminated remaining !important CSS declarations.",
+  "pub_date": "2026-11-20T15:21:29.244Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ1NUUGx4QzFWVzgzQ2ZJRFhFZDN1Vm4xQW1STytjbFFVQ2F3S1RZR2haWVVPMXZ0S3l6QXlqNGVCUGdqYzZBTDdHamhubXBwcnN0WXZLZVU5dE9TQnc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTg1OTk2CWZpbGU6UnVuZXRpZnlfMC4yLjIzNl94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjIzNgpUSEZGUkN5OVRrTzJ1RlB0M0VNdklzd0JaQjNNaHVaYUVleUhsbDdrdjFEVFl5VWdmSE93cnQxK1BEVFovemJZTUw2Ylk4Qm9Kd1R2bXY1Sk9YeDVBdz09Cg==",
-      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.236/Runetify_0.2.236_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ2Y2MU9kaXg0YXVkRzVySlJKRHRWS0NDK04yVGVoMjhTQjRCMXkzdnJrQy9tNUFaTXFCRnlmSXRkazg3dzBlUnlEL1YvNGIwUmQyS3NkcjQybTcrNmdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTg4MDgyCWZpbGU6UnVuZXRpZnlfMC4yLjIzN194NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjIzNwpvSnlVN3MrN1l0OFF2STdXRm05dWpEenIxVlVoWXhVL0dsWS9BbitWaVJrd3M0QnJBR05nazNIUGpZUnJrMk52N094S3YyWlk1dmM3THVodHkyS01EUT09Cg==",
+      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.237/Runetify_0.2.237_x64-setup.exe"
     }
   }
 }
