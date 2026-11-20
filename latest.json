@@ -1,11 +1,11 @@
 {
-  "version": "0.2.237",
-  "notes": "Clash Royale card transparency, random triggers, and web overlay sync: replaced lossy card icons (Sparky, Miner, Lumberjack, Ice Spirit, Fire Spirits, Flying Machine) with authentic 150x180 RGBA transparent card renders, eliminating rectangular black containers; added 4 transparent Clash Royale random card triggers (Random Card, Random Troop, Random Building, Random Spell); synchronized web-deploy and dist assets; and eliminated remaining !important CSS declarations.",
-  "pub_date": "2026-11-20T15:21:29.244Z",
+  "version": "0.2.238",
+  "notes": "Clash Royale crash after 2nd spawn fix and server port lifecycle stability: resolved SIGFPE (signal 8 divide-by-zero in libg.so) by enforcing safe 100ms mana regen tick threshold across globals.csv, settings, and server environment; eliminated port 9350/9339 socket conflicts with robust process-tree termination and precise HTTP health polling; optimized troop spawning with native batch dispatch to eliminate connection flooding; aligned hero action bar; and preserved seamless ADB emulator forwarding.",
+  "pub_date": "2026-11-20T20:10:05.543Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ2Y2MU9kaXg0YXVkRzVySlJKRHRWS0NDK04yVGVoMjhTQjRCMXkzdnJrQy9tNUFaTXFCRnlmSXRkazg3dzBlUnlEL1YvNGIwUmQyS3NkcjQybTcrNmdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTg4MDgyCWZpbGU6UnVuZXRpZnlfMC4yLjIzN194NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjIzNwpvSnlVN3MrN1l0OFF2STdXRm05dWpEenIxVlVoWXhVL0dsWS9BbitWaVJrd3M0QnJBR05nazNIUGpZUnJrMk52N094S3YyWlk1dmM3THVodHkyS01EUT09Cg==",
-      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.237/Runetify_0.2.237_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ1F2OHp0bm0yUjd4QXhYWk80NUNseFNwZGpZVHhhWmpUdUZuQzJTV2RndVlCTXlJSXRCSHBJenBNQ3QvV0xWekdCU3o2b0ZwVDQyMmp3ZmRqcHdvQUFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MjA1MzY1CWZpbGU6UnVuZXRpZnlfMC4yLjIzOF94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjIzOApwblZhcFRERzhidTIxUi9tVnorNytDc1QraUo4OUFhRjNINkY4Y09yV2o3VGt0UVNLWmJGdmpWc3RmZGNRWnM1d3ZxNVdpZ2hrZXVCbmlta251ZEJBdz09Cg==",
+      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.238/Runetify_0.2.238_x64-setup.exe"
     }
   }
 }
