@@ -1,11 +1,11 @@
 {
-  "version": "0.2.235",
-  "notes": "Runetify 0.2.235 — Streamed command selection without page controls, refreshed game and tools spinner, and updated L4D2 and PvZ Fusion mod fixes.",
-  "pub_date": "2026-11-20T14:28:44.180Z",
+  "version": "0.2.236",
+  "notes": "Runetify 0.2.236 — Streamed command selection without page controls, refreshed game and tools spinner, and updated L4D2 and PvZ Fusion mod fixes.",
+  "pub_date": "2026-11-20T14:46:43.982Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ1lnY0F1YytUeWJIOU1Wb2ZCV3dMZWcySDQ1aGlDRzZZajg2bmF0UnVVdEVRayszb0FoS0k3Z28xOWEyKzZHMDl6WHA1YXVCNW5WZXRrUGUrWnBwMmdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTg0ODg2CWZpbGU6UnVuZXRpZnlfMC4yLjIzNV94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjIzNQowSzFUelBCc29KSVB3MzU3TVU3YlB1UEZSeS82Y0U2dnQyU2NQY2dlcFUrN2UzL2lXemFrQjZkUDRpWkV1UjdRMmNmUnNGZ0ZoY1hlQ0sxb2xwbG5CQT09Cg==",
-      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.235/Runetify_0.2.235_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ1NUUGx4QzFWVzgzQ2ZJRFhFZDN1Vm4xQW1STytjbFFVQ2F3S1RZR2haWVVPMXZ0S3l6QXlqNGVCUGdqYzZBTDdHamhubXBwcnN0WXZLZVU5dE9TQnc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTg1OTk2CWZpbGU6UnVuZXRpZnlfMC4yLjIzNl94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjIzNgpUSEZGUkN5OVRrTzJ1RlB0M0VNdklzd0JaQjNNaHVaYUVleUhsbDdrdjFEVFl5VWdmSE93cnQxK1BEVFovemJZTUw2Ylk4Qm9Kd1R2bXY1Sk9YeDVBdz09Cg==",
+      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.236/Runetify_0.2.236_x64-setup.exe"
     }
   }
 }
