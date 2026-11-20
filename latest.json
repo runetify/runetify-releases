@@ -1,11 +1,11 @@
 {
-  "version": "0.2.229",
-  "notes": "Clash Royale original Map chooser, Pace elixir speed, Who is Who, and Battle settings integration; eliminated match end disconnect retry dialog; bundled APK content patch for 10ms lightning elixir; fixed app lag with 1-click Set up and Play procedure; and verified all 78 cards across Spells (15), Buildings (11), Troops (52), and 4 Random triggers.",
-  "pub_date": "2026-11-20T07:18:12.752Z",
+  "version": "0.2.230",
+  "notes": "Clash Royale server control and unified design system release: resolved server offline / startup race condition by removing conflicting duplicate listeners and increasing startup poll timeout; implemented stop_clash_royale_server_cmd for clean lifecycle management; restyled Map, Who is Who, Pace, and Battle settings to match Runetify's native Actions, Overlay, and Roulette design system; synced battleLocationRow with live arena switching and ensured instant persistence.",
+  "pub_date": "2026-11-20T11:37:11.885Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ2JVbHJvTExMM2RvVmNlTVlaYThJNXhoMXFTTzVBVmRkMUpxK01aam5pWU50UStzek1mVzZ0TFhZc253d1Y0UHVlblU3RFRleDZBT05OY0ZKR0I2T3dBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTU5MDY4CWZpbGU6UnVuZXRpZnlfMC4yLjIyOV94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjIyOQpvdkdVOTEzZ0EyV1B3bUxDUTdudHhqaG9GQWZMZVNISzBOWUx1NGFhOXdiM3RQR1hNbWJtdmc1bmNnS2ZUQ21BRzUya2hRM1JtNjhPUXRPWXJvQjJCQT09Cg==",
-      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.229/Runetify_0.2.229_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ2F5WnNLd0FTWlpaNUJrN05mS3gwbmZZeHpJZm5BMVQxTmQ2Z2pZNzgzU3g0YTR2S2VUMGwxVWlFQTA1WHVTN0lGRzZWY1dwWU5MZGRVNGRtMGY3a1F3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTc0NjEyCWZpbGU6UnVuZXRpZnlfMC4yLjIzMF94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjIzMApGd2o3NWV6aU41c3lZTm1id2VUNmp3WGlHSlp1UGZ3cFhVeU9ncUNjN3o0ckFJakpXYXVBaER0WjlYQ2dyY3RGWjNEQ05hWExidHRaRGVwMjlzZFNCZz09Cg==",
+      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.230/Runetify_0.2.230_x64-setup.exe"
     }
   }
 }
