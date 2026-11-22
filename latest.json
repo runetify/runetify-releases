@@ -1,11 +1,11 @@
 {
-  "version": "0.2.244",
-  "notes": "Left 4 Dead 2 audio engine optimization and Future Rot font fix: eliminated normal sound hook frame spikes by bypassing non-custom entities in 1 clock cycle; registered clean Future Rot TrueType font directly into Windows user fonts and CustomFontFiles; and restored guaranteed audible revive feedback sound (buttons/bell1.wav) for physical H key presses.",
-  "pub_date": "2026-11-22T18:21:06.318Z",
+  "version": "0.2.245",
+  "notes": "Left 4 Dead 2 Super Tanks & Overlord abilities, zero-delay team wipe, audible H revive audio, and zero-black-container HUD overhaul: restored Super Tanks and Overlord VScript ability activation on spawn and think ticks; eliminated 10-20 second wipe restart delay by removing director_no_death_check manipulation; guaranteed dual audible feedback for H revive (bell chime + survival victory chime on success, error buzzer on 0 lives); silenced heartbeat and bandaging audio loops during medkit healing; and eliminated bottom-center black hint container boxes.",
+  "pub_date": "2026-11-22T19:14:46.833Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ1U1UHE2YnBZRERiQlZQVmg1K25ha2o2dzh1SE5OOE5WN0hiL2JxMWVoa1BSUlhhaEcxa2RLSXFSdzhMUW9VZ0w0MmZ3Y1ZDcHZWZTU5ak5RUEh1elFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzcxNjYwCWZpbGU6UnVuZXRpZnlfMC4yLjI0NF94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjI0NApQdkRRR2V4UHRYSWFYeWJTcGZBWmVacWZTMEFtZWo5Z1pNQmNuVDEzQWJrMzB1SDdZR0NJWnJBdjc3eE5oT2luN3Q0Qnhvc21yZEV5SlRiRU5jMVhCQT09Cg==",
-      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.244/Runetify_0.2.244_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ1lXb1lqeXBubzFKTGkycmlMdGFkUnBnMHhsdHNDYm4wd3pDOEVwOEhCVTRYN0FpQzVUY2hOUHJtTUZpVlIwbnQyNHhTNVllSHlEaTVIS2FUeENFS2dFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1Mzc0ODc4CWZpbGU6UnVuZXRpZnlfMC4yLjI0NV94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjI0NQppbGo3L0l2amVGLzNWSDl0TkNCL0YvNkZLNEFFeHBtSGxmUHJWa0l4cEx1NlJSeVJWNHZQUWo0UGtsMk92ZG5LZEJncXBsOFVNa3hJT3U1ZUVrRmhEUT09Cg==",
+      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.245/Runetify_0.2.245_x64-setup.exe"
     }
   }
 }
