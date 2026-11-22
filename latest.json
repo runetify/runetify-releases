@@ -1,11 +1,11 @@
 {
-  "version": "0.2.240",
-  "notes": "Left 4 Dead 2 HUD and workshop addon consistency overhaul: completely eliminated black background container and outline boxes from top HUD timer, restored crisp Future Rot font with native 1px font outline, added in-game HUD toggle via chat (!hud, !togglehud, hud) and keybind (F9/F12) with instant refresh, fixed initial-map workshop addon loading and animation sync (medkit heal, custom survivors, xdReanimsBase) via synchronous update_addon_paths mounting at launch, and verified mod package integrity.",
-  "pub_date": "2026-11-22T12:56:05.181Z",
+  "version": "0.2.241",
+  "notes": "Left 4 Dead 2 overhaul: removed autoexec.cfg and cleaned engine cvars; added audible sound feedback (ui/helpful_event_1, beep07, error buzzer) to physical H revive key; eliminated bottom-center hint black containers so revive info is strictly on top HUD; fixed 10-20s wipe delay with mp_chattime 1 and immediate round restart when out of revives; resolved Future Rot font rendering on high resolutions by eliminating multi-block resolution fallbacks in clientscheme.res; and fixed Overlord / Super Tank abilities by driving VSLib think timer callbacks every tick.",
+  "pub_date": "2026-11-22T14:39:22.369Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ1k2YVVCMlFZcWwybkZDVHVxeWQyV053Z2gxY3lPWkxKZFF6N0lYcEZheVA2Ky9VR3JPZnFReDZ5K0s1VzlEV25Wb0hJNUM4S254aFNUMGVUVThDS1FvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzUyMTYwCWZpbGU6UnVuZXRpZnlfMC4yLjI0MF94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjI0MAorTGN6eXcvZ3Z3SEE0bHBHaUxHNEtmOTZnMUY0RUE3bzc3Qmo2aVc3eWRvVEZGQ05kVWM2WTdCOXdWU0YxWmllNTNJY1dUejY5NGlnOGFxVCtFc1hCUT09Cg==",
-      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.240/Runetify_0.2.240_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ1ZobjlMQjVTY0xLd0RtMXBEQU9WNXFQbmpScHpLOUp2UlpNQk4vZ3Q1WjhoQzVkdUEwMFZ3S25XcmlzUGR2YVEvNEV0TU5NMVowY1doemRJelFZUncwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzU4MzUzCWZpbGU6UnVuZXRpZnlfMC4yLjI0MV94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjI0MQozWERxZUIzTjROM1lJWm9jWTArbEVmVmpnVUZEcStFZ3krb0RrYUkzVlliNXJqVmZJWFdjRUtPNVF2TDM2Tkdic0ZhRWZ3K3VrLzNtYW5HcjByVVpDZz09Cg==",
+      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.241/Runetify_0.2.241_x64-setup.exe"
     }
   }
 }
