@@ -1,11 +1,11 @@
 {
-  "version": "0.2.239",
-  "notes": "Text to Speech page redesign and viewer custom voice overrides; Left 4 Dead 2 solo host physical H-key revive with safe ground anchor tracking, director grace window, Squidward freeze prop first-person recovery, and workshop mod error purges.",
-  "pub_date": "2026-11-22T12:09:24.441Z",
+  "version": "0.2.240",
+  "notes": "Left 4 Dead 2 HUD and workshop addon consistency overhaul: completely eliminated black background container and outline boxes from top HUD timer, restored crisp Future Rot font with native 1px font outline, added in-game HUD toggle via chat (!hud, !togglehud, hud) and keybind (F9/F12) with instant refresh, fixed initial-map workshop addon loading and animation sync (medkit heal, custom survivors, xdReanimsBase) via synchronous update_addon_paths mounting at launch, and verified mod package integrity.",
+  "pub_date": "2026-11-22T12:56:05.181Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ1VKRERzdDJZQWp1U0YyNkZLNnRtbkRuelJEU2tCL2FrQTRQaUY0TkJpNHVOcVV6eXBBMCswanhUUkVVRGM2a3lIaXk2NWd4OUhyd0ZpRVFJNWZKaWdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzQ5MzU3CWZpbGU6UnVuZXRpZnlfMC4yLjIzOV94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjIzOQpPdERoTXhPd0lLTDRWQ1lKK1N5RVQrTUE5VzFtSDVpWTFTYzJFWFE1QU8yTXFQeFh0S3JnbDlNeElNQzFvaFkvUUFuRUJyejFkNXg1RlJFVlJsZXFBQT09Cg==",
-      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.239/Runetify_0.2.239_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ1k2YVVCMlFZcWwybkZDVHVxeWQyV053Z2gxY3lPWkxKZFF6N0lYcEZheVA2Ky9VR3JPZnFReDZ5K0s1VzlEV25Wb0hJNUM4S254aFNUMGVUVThDS1FvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzUyMTYwCWZpbGU6UnVuZXRpZnlfMC4yLjI0MF94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjI0MAorTGN6eXcvZ3Z3SEE0bHBHaUxHNEtmOTZnMUY0RUE3bzc3Qmo2aVc3eWRvVEZGQ05kVWM2WTdCOXdWU0YxWmllNTNJY1dUejY5NGlnOGFxVCtFc1hCUT09Cg==",
+      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.240/Runetify_0.2.240_x64-setup.exe"
     }
   }
 }
