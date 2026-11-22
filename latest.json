@@ -1,11 +1,11 @@
 {
-  "version": "0.2.243",
-  "notes": "Left 4 Dead 2 audio, particle stutter, and mod stability overhaul: resolved infinite weapon muzzle particle errors (muzzle_sparks_pistol, muzzle_glow_rifle, muzzle_smoke_sniper, muzzle_lee_silenced, muzzle_sparks_rifle) by bundling official Legacy Particles Support (373048945.vpk) and patching Nihilanth portal particles; fixed NormalSHook 9-argument prototype ABI mismatch in SourceMod to prevent sound thread corruption and CAsyncWavDataCache failure; silenced workshop medkit rapid heartbeat audio (bandaging_1.wav) without affecting animations; restored physical H revive audio (helpful_event_1 and beep07); removed invalid rock model precaches and disruptive update_addon_paths calls; and synced mod package v0.2.219.",
-  "pub_date": "2026-11-22T17:08:30.940Z",
+  "version": "0.2.244",
+  "notes": "Left 4 Dead 2 audio engine optimization and Future Rot font fix: eliminated normal sound hook frame spikes by bypassing non-custom entities in 1 clock cycle; registered clean Future Rot TrueType font directly into Windows user fonts and CustomFontFiles; and restored guaranteed audible revive feedback sound (buttons/bell1.wav) for physical H key presses.",
+  "pub_date": "2026-11-22T18:21:06.318Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ1pmUDN0RlpQT2lZTHVPV3hhMWwzZWM5bHQ1Z3Z5VlRMQk9JeDRKTERCV1AzVmkrbFFJYmJBRHpkVGRlYjBpL2IwYXpoZXJta2ZrRGZJVG84RnRYQ2dBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzY3MzA1CWZpbGU6UnVuZXRpZnlfMC4yLjI0M194NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjI0Mwp3bktxeTEvRVJsQ3dJUzdXdnAwZmNKbStpRk9kV21vU1c1SCtIbG4zY01qRkJlbHhtcDBxRDVTWkwxOURwejYvMFN5TXhRMVJob09CaFRZRjBkSGZBUT09Cg==",
-      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.243/Runetify_0.2.243_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ1U1UHE2YnBZRERiQlZQVmg1K25ha2o2dzh1SE5OOE5WN0hiL2JxMWVoa1BSUlhhaEcxa2RLSXFSdzhMUW9VZ0w0MmZ3Y1ZDcHZWZTU5ak5RUEh1elFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzcxNjYwCWZpbGU6UnVuZXRpZnlfMC4yLjI0NF94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjI0NApQdkRRR2V4UHRYSWFYeWJTcGZBWmVacWZTMEFtZWo5Z1pNQmNuVDEzQWJrMzB1SDdZR0NJWnJBdjc3eE5oT2luN3Q0Qnhvc21yZEV5SlRiRU5jMVhCQT09Cg==",
+      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.244/Runetify_0.2.244_x64-setup.exe"
     }
   }
 }
