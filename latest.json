@@ -1,11 +1,11 @@
 {
-  "version": "0.2.246",
-  "notes": "Left 4 Dead 2 100% vanilla Director wipe handling & safe ground revive release: completely eliminated custom wipe watchdog loops and all director_no_death_check, director_stop, and director_start cvar tampering to let native Left 4 Dead 2 engine state machine manage wipes and instant 3-5 second chapter restarts; integrated safe ground anchor coordinate tracking directly into maintain limits loop for physical H key revives; compiled clean RuneSpawner plugin and repacked runetify.vpk; verified signed mod package v0.2.218.",
-  "pub_date": "2026-11-22T19:36:48.272Z",
+  "version": "0.2.247",
+  "notes": "Left 4 Dead 2 strictly first-person revive, audio feedback guarantee, CPU optimization, and Super Tank / Overlord abilities overhaul: strictly enforced first-person view across all team revives (healing living survivors to 100 HP, reviving incapped survivors, defibbing dead survivors) with multi-stage viewmodel/camera enforcement; guaranteed dual audible feedback for H revive (bell chime + survival victory chime on use, buzzer on 0 lives); optimized sound hooks and per-tick command loops with ultra-fast path filtering; active Super Tanks and Overlord VScript abilities driven on every tick without errors; top HUD Future Rot font outline-only display without container boxes; and deployed signed mod package v0.2.218.",
+  "pub_date": "2026-11-22T21:14:36.213Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ2JxUlZGSFhWQVFPWVljMFE1ZXhQalVDa09QbkNhaTVDNGwxRW82TEJxdWdpbENYdmFNdk8rSDNyZUdycWo0b202RTZrUTRoUVF4U053bXh4czJIdEE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1Mzc2MjA0CWZpbGU6UnVuZXRpZnlfMC4yLjI0Nl94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjI0Ngp4T3FKZTVjRFNDenNnS1dQL2h4WUNSRDhrS2R2SWZnMTlPNTNqQXVHS2lmUldpSURwUjRNbW1qNkU3RFVld3dsa3o2QVVQWEdIMVl2TUIvSHRmc3pCQT09Cg==",
-      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.246/Runetify_0.2.246_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ1ZsbVBnTG1vbGNnMGtYd2pWRzNFbGdmakYwdG9FQXU1SWovd09WMmhUandpekZKYS94c3hORmtrMElNTHNOYk8xa0l6U1pjSWNuQ3d5T0hyS1RtN0EwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzgyMDcwCWZpbGU6UnVuZXRpZnlfMC4yLjI0N194NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjI0NwpXVkIrQ3dJWXU5b0xOQ2lKUWphSTNzc2xNZE1TeGNSN0ppTTVBWDB6ZGhUb2wzWWUxY3EvekkvNjEwMkozTTd5LzNTLzdvdHBQdzFtRUdpZjZrMEFBQT09Cg==",
+      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.247/Runetify_0.2.247_x64-setup.exe"
     }
   }
 }
