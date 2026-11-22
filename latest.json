@@ -1,11 +1,11 @@
 {
-  "version": "0.2.242",
-  "notes": "Left 4 Dead 2 healing heartbeat fix: completely silenced annoying rapid heartbeat audio (player/heartbeatloop.wav) during medkit healing, revives, and low-health states; hooked heal_begin, heal_end, and heal_success to stop heartbeat channels and reset third-strike penalties; added silent heartbeatloop.wav asset override in runetify.vpk and loose game audio to ensure custom medkit reanimation audio (bandaging_1.wav) plays cleanly without heartbeat interference; and deployed updated mod package.",
-  "pub_date": "2026-11-22T15:04:26.862Z",
+  "version": "0.2.243",
+  "notes": "Left 4 Dead 2 audio, particle stutter, and mod stability overhaul: resolved infinite weapon muzzle particle errors (muzzle_sparks_pistol, muzzle_glow_rifle, muzzle_smoke_sniper, muzzle_lee_silenced, muzzle_sparks_rifle) by bundling official Legacy Particles Support (373048945.vpk) and patching Nihilanth portal particles; fixed NormalSHook 9-argument prototype ABI mismatch in SourceMod to prevent sound thread corruption and CAsyncWavDataCache failure; silenced workshop medkit rapid heartbeat audio (bandaging_1.wav) without affecting animations; restored physical H revive audio (helpful_event_1 and beep07); removed invalid rock model precaches and disruptive update_addon_paths calls; and synced mod package v0.2.219.",
+  "pub_date": "2026-11-22T17:08:30.940Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ2FIK3JIQ2hVblUzTjgyRjlucVEvN1AzdjFTdzhUcHJSVUVhZU5nWDhDWTBXUGFxNlRVNzMzSUZKNUV5cmU1VGRodTM4SUVvTEZteEdtdmtIUW95V0E4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzU5ODYxCWZpbGU6UnVuZXRpZnlfMC4yLjI0Ml94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjI0Mgo2WDBnNEhKTG9pMHJWR21RVEJqb1d0QndGQksxaUN4RmxwMmkrSHNyOGNKZTh5Ui9YcUhzdE9vRTZ3Mm1zQlVGRzRMdVZ0dnJQbG83V3F0TFFQZjlEQT09Cg==",
-      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.242/Runetify_0.2.242_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ1pmUDN0RlpQT2lZTHVPV3hhMWwzZWM5bHQ1Z3Z5VlRMQk9JeDRKTERCV1AzVmkrbFFJYmJBRHpkVGRlYjBpL2IwYXpoZXJta2ZrRGZJVG84RnRYQ2dBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzY3MzA1CWZpbGU6UnVuZXRpZnlfMC4yLjI0M194NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjI0Mwp3bktxeTEvRVJsQ3dJUzdXdnAwZmNKbStpRk9kV21vU1c1SCtIbG4zY01qRkJlbHhtcDBxRDVTWkwxOURwejYvMFN5TXhRMVJob09CaFRZRjBkSGZBUT09Cg==",
+      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.243/Runetify_0.2.243_x64-setup.exe"
     }
   }
 }
