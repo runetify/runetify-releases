@@ -1,11 +1,11 @@
 {
-  "version": "0.2.241",
-  "notes": "Left 4 Dead 2 overhaul: removed autoexec.cfg and cleaned engine cvars; added audible sound feedback (ui/helpful_event_1, beep07, error buzzer) to physical H revive key; eliminated bottom-center hint black containers so revive info is strictly on top HUD; fixed 10-20s wipe delay with mp_chattime 1 and immediate round restart when out of revives; resolved Future Rot font rendering on high resolutions by eliminating multi-block resolution fallbacks in clientscheme.res; and fixed Overlord / Super Tank abilities by driving VSLib think timer callbacks every tick.",
-  "pub_date": "2026-11-22T14:39:22.369Z",
+  "version": "0.2.242",
+  "notes": "Left 4 Dead 2 healing heartbeat fix: completely silenced annoying rapid heartbeat audio (player/heartbeatloop.wav) during medkit healing, revives, and low-health states; hooked heal_begin, heal_end, and heal_success to stop heartbeat channels and reset third-strike penalties; added silent heartbeatloop.wav asset override in runetify.vpk and loose game audio to ensure custom medkit reanimation audio (bandaging_1.wav) plays cleanly without heartbeat interference; and deployed updated mod package.",
+  "pub_date": "2026-11-22T15:04:26.862Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ1ZobjlMQjVTY0xLd0RtMXBEQU9WNXFQbmpScHpLOUp2UlpNQk4vZ3Q1WjhoQzVkdUEwMFZ3S25XcmlzUGR2YVEvNEV0TU5NMVowY1doemRJelFZUncwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzU4MzUzCWZpbGU6UnVuZXRpZnlfMC4yLjI0MV94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjI0MQozWERxZUIzTjROM1lJWm9jWTArbEVmVmpnVUZEcStFZ3krb0RrYUkzVlliNXJqVmZJWFdjRUtPNVF2TDM2Tkdic0ZhRWZ3K3VrLzNtYW5HcjByVVpDZz09Cg==",
-      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.241/Runetify_0.2.241_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ2FIK3JIQ2hVblUzTjgyRjlucVEvN1AzdjFTdzhUcHJSVUVhZU5nWDhDWTBXUGFxNlRVNzMzSUZKNUV5cmU1VGRodTM4SUVvTEZteEdtdmtIUW95V0E4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzU5ODYxCWZpbGU6UnVuZXRpZnlfMC4yLjI0Ml94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjI0Mgo2WDBnNEhKTG9pMHJWR21RVEJqb1d0QndGQksxaUN4RmxwMmkrSHNyOGNKZTh5Ui9YcUhzdE9vRTZ3Mm1zQlVGRzRMdVZ0dnJQbG83V3F0TFFQZjlEQT09Cg==",
+      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.242/Runetify_0.2.242_x64-setup.exe"
     }
   }
 }
