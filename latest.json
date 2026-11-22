@@ -1,10 +1,10 @@
 {
   "version": "0.2.247",
   "notes": "Left 4 Dead 2 strictly first-person revive, audio feedback guarantee, CPU optimization, and Super Tank / Overlord abilities overhaul: strictly enforced first-person view across all team revives (healing living survivors to 100 HP, reviving incapped survivors, defibbing dead survivors) with multi-stage viewmodel/camera enforcement; guaranteed dual audible feedback for H revive (bell chime + survival victory chime on use, buzzer on 0 lives); optimized sound hooks and per-tick command loops with ultra-fast path filtering; active Super Tanks and Overlord VScript abilities driven on every tick without errors; top HUD Future Rot font outline-only display without container boxes; and deployed signed mod package v0.2.218.",
-  "pub_date": "2026-11-22T21:14:36.213Z",
+  "pub_date": "2026-11-22T21:38:26.503Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ1ZsbVBnTG1vbGNnMGtYd2pWRzNFbGdmakYwdG9FQXU1SWovd09WMmhUandpekZKYS94c3hORmtrMElNTHNOYk8xa0l6U1pjSWNuQ3d5T0hyS1RtN0EwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzgyMDcwCWZpbGU6UnVuZXRpZnlfMC4yLjI0N194NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjI0NwpXVkIrQ3dJWXU5b0xOQ2lKUWphSTNzc2xNZE1TeGNSN0ppTTVBWDB6ZGhUb2wzWWUxY3EvekkvNjEwMkozTTd5LzNTLzdvdHBQdzFtRUdpZjZrMEFBQT09Cg==",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ2Z1cXQ5M0xNSmN3SGNtVllXenRDbkw3NURNcGVyajlBVWY1MmVSODNISEk1c21FWUhBa0ZROUc0Z2NzcHgxUXZqVXJlRk16Z0ZkT0dvanVOaDJXT1FRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzgzNTAxCWZpbGU6UnVuZXRpZnlfMC4yLjI0N194NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjI0NwpjMWM4NzRBR3R0NXFjSUthUlJCVk5aS29pYm9LYnNabnNEOTNTNEw4Nlo3YUpUQ0JxWVVnVWdQR09nclk2WW4wTjYxM2dKakxtaDlmRFJSY3oydWdDZz09Cg==",
       "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.247/Runetify_0.2.247_x64-setup.exe"
     }
   }
