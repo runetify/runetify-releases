@@ -1,11 +1,11 @@
 {
-  "version": "0.2.247",
-  "notes": "Left 4 Dead 2 strictly first-person revive, audio feedback guarantee, CPU optimization, and Super Tank / Overlord abilities overhaul: strictly enforced first-person view across all team revives (healing living survivors to 100 HP, reviving incapped survivors, defibbing dead survivors) with multi-stage viewmodel/camera enforcement; guaranteed dual audible feedback for H revive (bell chime + survival victory chime on use, buzzer on 0 lives); optimized sound hooks and per-tick command loops with ultra-fast path filtering; active Super Tanks and Overlord VScript abilities driven on every tick without errors; top HUD Future Rot font outline-only display without container boxes; and deployed signed mod package v0.2.218.",
-  "pub_date": "2026-11-22T21:38:26.503Z",
+  "version": "0.2.248",
+  "notes": "Left 4 Dead 2 installer overwrite guarantee, SourcePawn codebase refactor, strictly consolidated physical H team revive, and clean Future Rot HUD release: enabled unconditional mod file overwrite on install/reinstall to guarantee all latest fixes are deployed without cache skips; streamlined RuneSpawner SourcePawn codebase by cutting 1,742 lines of redundant code and dead commands into modular includes; strictly consolidated team revive to physical key H / h and sm_revive with first-person perspective, single verification timer, and dual chime audio feedback (buttons/bell1.wav + ui/helpful_event_1.wav on success, buttons/button11.wav buzzer on 0 lives); unified Future Rot font across all HUD number tiers in left4dead2 and update; silenced medkit healing heartbeat audio loop; verified Super Tank and Overlord think timers; and deployed signed mod packages v0.2.222.",
+  "pub_date": "2026-11-23T10:18:34.208Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ2Z1cXQ5M0xNSmN3SGNtVllXenRDbkw3NURNcGVyajlBVWY1MmVSODNISEk1c21FWUhBa0ZROUc0Z2NzcHgxUXZqVXJlRk16Z0ZkT0dvanVOaDJXT1FRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzgzNTAxCWZpbGU6UnVuZXRpZnlfMC4yLjI0N194NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjI0NwpjMWM4NzRBR3R0NXFjSUthUlJCVk5aS29pYm9LYnNabnNEOTNTNEw4Nlo3YUpUQ0JxWVVnVWdQR09nclk2WW4wTjYxM2dKakxtaDlmRFJSY3oydWdDZz09Cg==",
-      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.247/Runetify_0.2.247_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ2ZTcVpBaVJZblNiVEt1ODN3L3l6WGFKY2tCK2czRVVSU3JHRzZ5Qlp6aWV0MGlneUZHRGlQOE1YL2ZMUk16L3QzSGtvVVplRmRzenFFU1lDbkY0YmdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NDI5MDkxCWZpbGU6UnVuZXRpZnlfMC4yLjI0OF94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjI0OAp3eVR5RFRVbzljTEtPV2VHMDFIRndFQW5GOXFGY01kaC9MUzcycTdYSGdFMHExQ2tqTGcxcWZvOXlQNmpvTWdHRUpwQ0Z6RWEvL05oTWZ6U2wzcUZDdz09Cg==",
+      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.248/Runetify_0.2.248_x64-setup.exe"
     }
   }
 }
