@@ -1,11 +1,11 @@
 {
-  "version": "0.2.251",
-  "notes": "Left 4 Dead 2 Future Rot HUD across all resolutions, shadow sound purge, and client config preservation: expanded FutureRotTimer resolution scaling in clientscheme.res across all resolutions (720p, 1080p, 1440p, 4K) preventing fallback to Arial; registered FutureRot.ttf immediately via Win32 GDI AddFontResourceExW and WM_FONTCHANGE; completely purged loose shadowed vanilla audio files causing channel starvation and audio buffer underruns; bypassed sound debounce for all custom infected voice emissions; and protected user autoexec.cfg and video settings from modification.",
-  "pub_date": "2026-11-24T11:02:13.405Z",
+  "version": "0.2.252",
+  "notes": "Left 4 Dead 2 audio stutter fix, clean vanilla audio isolation, and Future Rot VGUI font release: completely eliminated audio-related framerate drops and sound hitching by compiling pre-cached sound.cache directly into addons/runetify.vpk, ensuring instant audio memory streaming; isolated 100% of custom sounds inside runetify.vpk and automatically purged loose audio folders from left4dead2/sound/ to keep vanilla game audio pristine; compiled Future Rot font into encrypted Valve .vfont format (Futurot.vfont, FutureRot.vfont) and updated CustomFontFiles to fix VGUI parser loading; removed resolution range limitations from HUD fonts; protected user configs (autoexec.cfg, video.txt, resolution, binds); cleaned up deprecated disaster/kill commands; and synchronized mod packages v0.2.223.",
+  "pub_date": "2026-11-24T11:42:31.580Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ2JaSk1LdkgvRG1RVkJ6cFR5Nm9oNWx0c0VlVFk1SzNBdnpkZDN2SkxhWjJIcnFsYkdiYnExS1JYZHUrSVNrMkVLTnJ5OWEzZEV1YU1oKzVoNkF6akFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NTE4MTE4CWZpbGU6UnVuZXRpZnlfMC4yLjI1MV94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjI1MQpjdlRZbVhUOHlHa05wV2duYTF1Z2RpM0NPc2tBaUpPTnBRYW1wdkhKZ081T3VzWEN3S0oxbVJSdVowenkzRGEvVU1oM2d0VUw4dHhqNTcrQWpyZ0xBQT09Cg==",
-      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.251/Runetify_0.2.251_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ2NOQk4wR2VxSis1K2x5Q2NxV28yTlg5WEtiNzd2dTNMYzYwQVR2Qzlsa1c1MUdVUHFqYWxaeVFEdWhFVlZ2Y0djNGNsSmNIZ2ROTEQxRlVnZDNZRlFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NTIwNTQyCWZpbGU6UnVuZXRpZnlfMC4yLjI1Ml94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjI1MgpFODRxMkMwNDBNK2lZMDZaVXdMNS9vZWtpcXJDNzRZYVNFOWd6UU4zWFJqYmxIUGMyTEc0UlduYzg4cnpidVE4Kys2YUVBNXZid3NLZTEwakQ0SVBBQT09Cg==",
+      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.252/Runetify_0.2.252_x64-setup.exe"
     }
   }
 }
