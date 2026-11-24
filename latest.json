@@ -1,11 +1,11 @@
 {
-  "version": "0.2.255",
-  "notes": "Left 4 Dead 2 native audio overhaul, authentic VFONT1 stream cipher encryption, and minimal HUD architecture release: completely removed global NormalSoundHook to eliminate audio stuttering, audio buffer starvation, and framerate hitching while keeping vanilla audio 100% untouched and pure; switched custom infected audio to clean event-based triggers on spawn and death; reverse-engineered Valve's authentic VFONT1 autokey stream cipher to encrypt Futurot.vfont and FutureRot.vfont, guaranteeing native VGUI Future Rot font loading; purged hud_reloadscheme and CenterText popups from !togglehud and player spawn to eliminate screen flashing, popping, and HUD vanishing on new game or map reload; and published updated signed mod packages v0.2.223.",
-  "pub_date": "2026-11-24T17:01:07.720Z",
+  "version": "0.2.256",
+  "notes": "Left 4 Dead 2 installer vanilla asset preservation and Future Rot scheme overhaul: removed vanilla audio directories (sound/player/survivor, sound/buttons, sound/player/pz) and vanilla audio files from installer cleanup routines, permanently fixing the 9,772 file validation failure in Steam; bound HudNumbers and SurvivalNumbers directly to Future Rot in clientscheme.res for authentic native engine top HUD rendering; precached heartbeat loops in RuneSpawner; and protected pure vanilla survivor and infected audio.",
+  "pub_date": "2026-11-24T18:30:49.690Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ1RMZVY2NnMwamxaMXJDM2kzWWNDSkpYVHpKTjNMcTBhZ3F1VW1scTZ4UCtpbkozbkR3OGNLdUt3NlBuUzc2V1dNWXFVM2Z4WTJyZVJDM29VUzR5NFFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NTM5NjYyCWZpbGU6UnVuZXRpZnlfMC4yLjI1NV94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjI1NQpISlAvN3gwS3duTkx2dnVHQXZxc003dDl3aUFoOURKVGpndU01RW53K096N1ppMjRTRnlpTHMveEcyRXdkMUxwc1VzSzRKMTJYSTBkei9Jb1cvd3RBdz09Cg==",
-      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.255/Runetify_0.2.255_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ1paSjZLZWxDY1pMMnBGZDJ0V0txMVRHUVQxbmRVQWtja0QxUVhoQzZyU0tDU0puVnRVS0pIUlFBc1E3ekZwQzRCZnN4ZTc5bXM2OHZRcUxGa21YR2c4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NTQ1MDQzCWZpbGU6UnVuZXRpZnlfMC4yLjI1Nl94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjI1NgpMQlQ4N0Y0WG1hTmZKOG4wRG5CNXZMdVFlMzhteEVYSVdsUXJVTTZUTHFGVzZyYzZIKytxUDVjZE0rZEtQT2hsVGdnalhvRXJJYjAvWGExcnEySGJEUT09Cg==",
+      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.256/Runetify_0.2.256_x64-setup.exe"
     }
   }
 }
