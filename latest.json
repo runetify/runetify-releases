@@ -1,11 +1,11 @@
 {
-  "version": "0.2.250",
-  "notes": "Left 4 Dead 2 commands and audio overhaul: completely removed all 10 random disaster commands from the app and mod; simplified Kill All and single target slay into instant, clean direct kills eliminating piano drops, truck collisions, and tour bus models; eradicated custom infected sound channel exhaustion by removing player-iterating EmitSoundOnClient multiplier loops; optimized spawn audio debouncing; and updated desktop app command catalog.",
-  "pub_date": "2026-11-24T09:30:28.691Z",
+  "version": "0.2.251",
+  "notes": "Left 4 Dead 2 Future Rot HUD across all resolutions, shadow sound purge, and client config preservation: expanded FutureRotTimer resolution scaling in clientscheme.res across all resolutions (720p, 1080p, 1440p, 4K) preventing fallback to Arial; registered FutureRot.ttf immediately via Win32 GDI AddFontResourceExW and WM_FONTCHANGE; completely purged loose shadowed vanilla audio files causing channel starvation and audio buffer underruns; bypassed sound debounce for all custom infected voice emissions; and protected user autoexec.cfg and video settings from modification.",
+  "pub_date": "2026-11-24T11:02:13.405Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ1hTTDdFYnpXdjFoQlFTd1VuQjc3UnBzamdvSU9RVkVqVGp1bVljdE5DTjZNYWVVSFh5TVlLZElJTm1IWXJicGkxNU9sNDR1ODR6U2dESG5sWVA1aXdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NTEyNjIyCWZpbGU6UnVuZXRpZnlfMC4yLjI1MF94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjI1MApCNlJtL01TaGJwSzg3QkQzemJjcjdMUTFZMnd4eUpnTm5ONGJ4bzFwbU40SVJZZkk4WnExRXpVbnZBMUdPRllic2lBRWFOSTZCWFk2T1ZwRk50aGhEUT09Cg==",
-      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.250/Runetify_0.2.250_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ2JaSk1LdkgvRG1RVkJ6cFR5Nm9oNWx0c0VlVFk1SzNBdnpkZDN2SkxhWjJIcnFsYkdiYnExS1JYZHUrSVNrMkVLTnJ5OWEzZEV1YU1oKzVoNkF6akFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NTE4MTE4CWZpbGU6UnVuZXRpZnlfMC4yLjI1MV94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjI1MQpjdlRZbVhUOHlHa05wV2duYTF1Z2RpM0NPc2tBaUpPTnBRYW1wdkhKZ081T3VzWEN3S0oxbVJSdVowenkzRGEvVU1oM2d0VUw4dHhqNTcrQWpyZ0xBQT09Cg==",
+      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.251/Runetify_0.2.251_x64-setup.exe"
     }
   }
 }
