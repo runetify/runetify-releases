@@ -1,11 +1,11 @@
 {
-  "version": "0.2.257",
-  "notes": "Left 4 Dead 2 persistent Future Rot top HUD across map/round transitions and complete mod installer update: fixed CHudScriptedMode disappearing on map/round changes by keeping m_bChallengeModeActive enabled in SendRunetifyHUD and executing HUD updates directly via info_director; reduced top HUD font size to 11 with crisp outline and eliminated row-1 horizontal shifting; bundled left4dead2_runetify/pak01_dir.vpk and automatic gameinfo.txt SearchPaths mounting directly into the L4D2 mod payload and desktop installer.",
-  "pub_date": "2026-11-25T15:06:49.576Z",
+  "version": "0.2.258",
+  "notes": "Disrupt multi-gift repeat fix and Left 4 Dead 2 freeze camera recovery: fixed Screen Disrupts (including 5x Captcha) only triggering once during TikTok gift combos by waiting for streak completion and removing forced per-gift cooldowns; replaced Left 4 Dead 2 freeze third-person cheat commands with pure server-side m_TimeForceExternalView so unfreezing always snaps cleanly back to first-person FOV; and updated signed L4D2 mod packages v0.2.258.",
+  "pub_date": "2026-11-28T03:40:24.462Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ1huT0VUcjJsWFZoZDcxQjZJQWZXVjZTUTVBazJsZ0lFRnhSRDBUaEJvRGNkOFlGY1pFS00vZWFLZ3RjSGU3bW1WTHRkeStKaE1BQjhBMkxORGltN3dRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NjE5MjA4CWZpbGU6UnVuZXRpZnlfMC4yLjI1N194NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjI1NwpuVjUza2JIZkxRbmVjcTJQT01VdVQ5L2UxWm9TcE02S1Zka3pVTFR5WlhMRWgyZS9DLzFJT21nWElRb2REcjgvRmZraFU2ZnlnUkdydEVsVXBDeWlEZz09Cg==",
-      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.257/Runetify_0.2.257_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRmprWDV4L3JaZ1JHNmtxcHo2TkJLdzF5UFF1TVlmd0dZNVNtL2ZVUnhiSGJDTC9icnZNOS9RYzc1SHkzWEJicmlKMVFhb21NUGV0RGRFTS9SNHdwc2lCbHJaNVcyMHcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1ODM3MjI0CWZpbGU6UnVuZXRpZnlfMC4yLjI1OF94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjI1OAphUVNpYS9ydkN5M0FuL0pWays3TUFHY3UvN00zVmhNdmprNjhRL1k2QXlFQVBEVG43TytVTUNMUjYxS0luUjhnM2hYVEoxb2hwVmdmVkRMKzg3WjBEdz09Cg==",
+      "url": "https://github.com/runetify/runetify-releases/releases/download/v0.2.258/Runetify_0.2.258_x64-setup.exe"
     }
   }
 }
